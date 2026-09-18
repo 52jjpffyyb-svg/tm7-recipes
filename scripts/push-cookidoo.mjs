@@ -30,19 +30,34 @@ const client = new CookidooClient({
   baseUrl: "https://cookidoo.co.uk"
 });
 
-const created = await client.recipes.create(recipe.name);
-const recipeId = created.recipeId;
+let recipeId = recipe.recipeId;
 
-await client.recipes.patchMeta(recipeId, {
+if (!recipeId) {
+  const created = await client.recipes.create(recipe.name);
+  recipeId = created.recipeId;
+  console.log(`Created blank Cookidoo recipe: ${recipeId}`);
+} else {
+  console.log(`Updating existing Cookidoo recipe: ${recipeId}`);
+}
+
+const meta = {
   name: recipe.name,
   ingredients: recipe.ingredients.map((text) => ({
     type: "INGREDIENT",
     text
   })),
-  ...(recipe.yield ? { yield: recipe.yield } : {}),
   ...(Number.isFinite(recipe.prepTime) ? { prepTime: recipe.prepTime } : {}),
   ...(Number.isFinite(recipe.totalTime) ? { totalTime: recipe.totalTime } : {})
-});
+};
+
+if (recipe.yield?.value) {
+  meta.yield = {
+    value: recipe.yield.value,
+    unitText: recipe.yield.unitText || "portion"
+  };
+}
+
+await client.recipes.patchMeta(recipeId, meta);
 
 const instructions = recipe.steps.map((item, index) => {
   if (typeof item === "string") return step(item, []);
@@ -82,12 +97,12 @@ const instructions = recipe.steps.map((item, index) => {
 
 await client.recipes.patchInstructions(recipeId, instructions);
 
-console.log(`Created Cookidoo recipe: ${recipe.name}`);
+console.log(`Cookidoo recipe saved: ${recipe.name}`);
 console.log(`Cookidoo recipe ID: ${recipeId}`);
 
 if (process.env.GITHUB_STEP_SUMMARY) {
   fs.appendFileSync(
     process.env.GITHUB_STEP_SUMMARY,
-    `## Cookidoo recipe created ✅\n\n**${recipe.name}**\n\nRecipe ID: \`${recipeId}\`\n\nOpen **Created Recipes** in Cookidoo to view it.\n`
+    `## Cookidoo recipe saved ✅\n\n**${recipe.name}**\n\nRecipe ID: \`${recipeId}\`\n\nOpen **Created Recipes** in Cookidoo to view it.\n`
   );
 }
