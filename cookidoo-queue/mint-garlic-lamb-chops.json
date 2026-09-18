@@ -1,0 +1,56 @@
+{
+  "name": "Mint & Garlic Lamb Chops",
+  "yield": {
+    "value": 8,
+    "unitText": "portion"
+  },
+  "prepTime": 900,
+  "totalTime": 14400,
+  "ingredients": [
+    "8 lamb chops",
+    "18-20 g fresh mint leaves and tender stalks, woody stems removed",
+    "60 ml olive oil",
+    "2 garlic cloves",
+    "1 tbsp honey",
+    "1 tbsp lemon juice, plus zest of 1/2 lemon",
+    "1/2 tsp English mustard",
+    "1 tsp rosemary",
+    "1 tsp flaky sea salt",
+    "1/4 tsp MSG",
+    "1/2 tsp black pepper"
+  ],
+  "steps": [
+    {
+      "text": "Put the fresh mint, garlic and rosemary into the mixing bowl and chop 5 sec / speed 7. Scrape down the sides.",
+      "actions": [
+        {
+          "match": "5 sec / speed 7",
+          "time": 5,
+          "speed": "7"
+        }
+      ]
+    },
+    {
+      "text": "Add the olive oil, honey, lemon juice, lemon zest, English mustard, flaky sea salt, MSG and black pepper. Mix 10 sec / speed 4.",
+      "actions": [
+        {
+          "match": "10 sec / speed 4",
+          "time": 10,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Coat the lamb chops thoroughly in the marinade. Cover and refrigerate for 2-4 hours, or overnight for a stronger flavour."
+    },
+    {
+      "text": "Heat a barbecue for direct cooking to 230-250°C."
+    },
+    {
+      "text": "Cook the lamb chops over direct heat for 3-4 minutes per side, depending on thickness and preferred doneness."
+    },
+    {
+      "text": "Rest the lamb chops for 5-10 minutes before serving."
+    }
+  ]
+}
