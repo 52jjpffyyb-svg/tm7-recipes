@@ -22,7 +22,9 @@ for (const key of ["name", "ingredients", "steps"]) {
   if (!recipe[key]) throw new Error(`Recipe is missing required field: ${key}`);
 }
 
-const client = new CookidooClient({
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const makeClient = () => new CookidooClient({
   email,
   password,
   country: "gb",
@@ -31,14 +33,6 @@ const client = new CookidooClient({
 });
 
 let recipeId = recipe.recipeId;
-
-if (!recipeId) {
-  const created = await client.recipes.create(recipe.name);
-  recipeId = created.recipeId;
-  console.log(`Created blank Cookidoo recipe: ${recipeId}`);
-} else {
-  console.log(`Updating existing Cookidoo recipe: ${recipeId}`);
-}
 
 const meta = {
   name: recipe.name,
@@ -56,8 +50,6 @@ if (recipe.yield?.value) {
     unitText: recipe.yield.unitText || "portion"
   };
 }
-
-await client.recipes.patchMeta(recipeId, meta);
 
 const instructions = recipe.steps.map((item, index) => {
   if (typeof item === "string") return step(item, []);
@@ -95,7 +87,41 @@ const instructions = recipe.steps.map((item, index) => {
   return step(text, annotations);
 });
 
-await client.recipes.patchInstructions(recipeId, instructions);
+const retryDelaysMs = [0, 15000, 45000];
+let saved = false;
+let lastError;
+
+for (let attempt = 0; attempt < retryDelaysMs.length; attempt++) {
+  const delay = retryDelaysMs[attempt];
+  if (delay > 0) {
+    console.log(`Cookidoo attempt ${attempt + 1}: waiting ${delay / 1000}s before retry...`);
+    await sleep(delay);
+  }
+
+  const client = makeClient();
+
+  try {
+    if (!recipeId) {
+      const created = await client.recipes.create(recipe.name);
+      recipeId = created.recipeId;
+      console.log(`Created blank Cookidoo recipe: ${recipeId}`);
+    } else {
+      console.log(`Updating existing Cookidoo recipe: ${recipeId}`);
+    }
+
+    await client.recipes.patchMeta(recipeId, meta);
+    await client.recipes.patchInstructions(recipeId, instructions);
+    saved = true;
+    break;
+  } catch (error) {
+    lastError = error;
+    console.error(`Cookidoo attempt ${attempt + 1} failed: ${error?.message || error}`);
+  }
+}
+
+if (!saved) {
+  throw lastError;
+}
 
 console.log(`Cookidoo recipe saved: ${recipe.name}`);
 console.log(`Cookidoo recipe ID: ${recipeId}`);
