@@ -1,0 +1,63 @@
+name: Push recipe to Cookidoo
+
+on:
+  push:
+    paths:
+      - "cookidoo-queue/*.json"
+  workflow_dispatch:
+    inputs:
+      recipe_file:
+        description: "Recipe JSON path, e.g. cookidoo-queue/egg-fried-rice.json"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  push-recipe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out recipes
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install Cookidoo client
+        run: npm install --no-audit --no-fund
+
+      - name: Work out which recipe files to send
+        id: files
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            printf '%s\n' "${{ inputs.recipe_file }}" > /tmp/cookidoo-files.txt
+          else
+            git diff --name-only --diff-filter=A "${{ github.event.before }}" "${{ github.sha }}" -- 'cookidoo-queue/*.json' > /tmp/cookidoo-files.txt
+          fi
+
+          echo "Recipe files:"
+          cat /tmp/cookidoo-files.txt
+
+          if [ ! -s /tmp/cookidoo-files.txt ]; then
+            echo "No newly-added recipe JSON files found."
+            exit 1
+          fi
+
+      - name: Create recipe in Cookidoo
+        env:
+          COOKIDOO_EMAIL: ${{ secrets.COOKIDOO_EMAIL }}
+          COOKIDOO_PASSWORD: ${{ secrets.COOKIDOO_PASSWORD }}
+        shell: bash
+        run: |
+          while IFS= read -r file; do
+            echo "Sending $file to Cookidoo..."
+            node scripts/push-cookidoo.mjs "$file"
+          done < /tmp/cookidoo-files.txt
