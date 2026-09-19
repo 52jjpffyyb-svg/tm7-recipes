@@ -1,0 +1,72 @@
+{
+  "recipeId": "01M2TRSKGQFMRN73FE9MGS3Z2Y",
+  "name": "Minted Lamb Steaks – Air Fryer",
+  "yield": {
+    "value": 4,
+    "unitText": "portion"
+  },
+  "prepTime": 900,
+  "totalTime": 14400,
+  "ingredients": [
+    "4 lamb leg steaks, approximately 150-200 g each",
+    "20 g fresh mint, tender stalks included",
+    "2 garlic cloves",
+    "60 g olive oil",
+    "1 tbsp lemon juice",
+    "Finely grated zest of 1/2 lemon",
+    "1 tbsp honey",
+    "1 tbsp English mustard",
+    "1 tsp dried or fresh rosemary",
+    "1 tsp flaky sea salt",
+    "1/4 tsp MSG",
+    "1/2 tsp black pepper",
+    "1-2 tbsp water, only if needed to loosen the marinade"
+  ],
+  "steps": [
+    {
+      "text": "Put the fresh mint and garlic into the mixing bowl and chop 3 sec / speed 8. Scrape down the sides.",
+      "actions": [
+        {
+          "match": "3 sec / speed 8",
+          "time": 3,
+          "speed": "8"
+        }
+      ]
+    },
+    {
+      "text": "Add the olive oil, lemon juice, lemon zest, honey, English mustard, rosemary, flaky sea salt, MSG and black pepper. Mix 10 sec / speed 5.",
+      "actions": [
+        {
+          "match": "10 sec / speed 5",
+          "time": 10,
+          "speed": "5"
+        }
+      ]
+    },
+    {
+      "text": "If the marinade is very thick, add 1-2 tbsp water and mix 5 sec / speed 4.",
+      "actions": [
+        {
+          "match": "5 sec / speed 4",
+          "time": 5,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Coat the lamb steaks thoroughly in the marinade. Cover and refrigerate for at least 2 hours, or overnight for a stronger flavour."
+    },
+    {
+      "text": "Remove the lamb steaks from the refrigerator 20-30 minutes before cooking."
+    },
+    {
+      "text": "Preheat the air fryer to 200°C. Shake or scrape off any very heavy excess marinade so the honey does not burn, leaving the steaks well coated."
+    },
+    {
+      "text": "Air fry at 200°C, turning halfway: approximately 8 minutes for pink to medium, 9-10 minutes for medium, or 11-12 minutes for more well done. Cooking time will vary with thickness."
+    },
+    {
+      "text": "Rest the lamb steaks for 5 minutes before serving."
+    }
+  ]
+}
