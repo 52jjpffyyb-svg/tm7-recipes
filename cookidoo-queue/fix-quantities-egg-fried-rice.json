@@ -30,6 +30,20 @@
           "temperature": 100,
           "speed": "4"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "300 g jasmine rice",
+          "ingredientIndex": 0,
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "match": "1000 g water",
+          "ingredientIndex": 1,
+          "amount": 1000,
+          "unit": "g"
+        }
       ]
     },
     {
@@ -47,6 +61,22 @@
           "time": 3,
           "speed": "3",
           "direction": "CCW"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "10 g neutral oil",
+          "ingredientIndex": 3,
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "match": "3 eggs",
+          "ingredientIndex": 2
+        },
+        {
+          "match": "1 pinch salt",
+          "ingredientIndex": 10
         }
       ]
     },
@@ -67,6 +97,24 @@
           "speed": "0.5",
           "direction": "CCW"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "10 g neutral oil",
+          "ingredientIndex": 3,
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "match": "3 sliced spring onions",
+          "ingredientIndex": 4
+        },
+        {
+          "match": "100 g frozen peas",
+          "ingredientIndex": 5,
+          "amount": 100,
+          "unit": "g"
+        }
       ]
     },
     {
@@ -78,6 +126,44 @@
           "temperature": 100,
           "speed": "0.5",
           "direction": "CCW"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "cooled cooked rice",
+          "ingredientIndex": 0
+        },
+        {
+          "match": "cooked egg",
+          "ingredientIndex": 2
+        },
+        {
+          "match": "1 tbsp light soy sauce",
+          "ingredientIndex": 6,
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "match": "1 tsp sesame oil",
+          "ingredientIndex": 7,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/4 tsp white pepper",
+          "ingredientIndex": 8,
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/4 tsp MSG",
+          "ingredientIndex": 9,
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "match": "3 spring onions",
+          "ingredientIndex": 4
         }
       ]
     }
