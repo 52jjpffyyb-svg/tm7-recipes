@@ -24,11 +24,37 @@
   ],
   "steps": [
     {
-      "text": "Season 600-750 g rolled beef brisket generously with salt and black pepper."
+      "text": "Season 600-750 g rolled beef brisket generously with salt and black pepper.",
+      "ingredientLinks": [
+        {
+          "match": "600-750 g rolled beef brisket",
+          "ingredientIndex": 0
+        },
+        {
+          "match": "salt",
+          "ingredientIndex": 12
+        },
+        {
+          "match": "black pepper",
+          "ingredientIndex": 13
+        }
+      ]
     },
     {
       "text": "Add 20 g vegetable oil to the mixing bowl. Use Browning mode to brown the 600-750 g brisket on several sides, turning it carefully as needed. Remove the beef and set aside.",
-      "actions": []
+      "actions": [],
+      "ingredientLinks": [
+        {
+          "match": "20 g vegetable oil",
+          "ingredientIndex": 4,
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "match": "600-750 g brisket",
+          "ingredientIndex": 0
+        }
+      ]
     },
     {
       "text": "Add 2 quartered onions, 2 roughly chopped carrots and 2 garlic cloves. Chop 5 sec / speed 5.",
@@ -37,6 +63,20 @@
           "match": "5 sec / speed 5",
           "time": 5,
           "speed": "5"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "2 quartered onions",
+          "ingredientIndex": 1
+        },
+        {
+          "match": "2 roughly chopped carrots",
+          "ingredientIndex": 2
+        },
+        {
+          "match": "2 garlic cloves",
+          "ingredientIndex": 3
         }
       ]
     },
@@ -60,13 +100,63 @@
           "temperature": 120,
           "speed": "1"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "25 g tomato purée",
+          "ingredientIndex": 5,
+          "amount": 25,
+          "unit": "g"
+        }
       ]
     },
     {
-      "text": "Add 150 g red wine, 450 g beef stock, 20 g Worcestershire sauce, 1 tsp Marmite, 1 tsp dried thyme and 1 bay leaf."
+      "text": "Add 150 g red wine, 450 g beef stock, 20 g Worcestershire sauce, 1 tsp Marmite, 1 tsp dried thyme and 1 bay leaf.",
+      "ingredientLinks": [
+        {
+          "match": "150 g red wine",
+          "ingredientIndex": 6,
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "match": "450 g beef stock",
+          "ingredientIndex": 7,
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "match": "20 g Worcestershire sauce",
+          "ingredientIndex": 8,
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "match": "1 tsp Marmite",
+          "ingredientIndex": 9,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1 tsp dried thyme",
+          "ingredientIndex": 10,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1 bay leaf",
+          "ingredientIndex": 11
+        }
+      ]
     },
     {
-      "text": "Return the browned 600-750 g brisket to the mixing bowl."
+      "text": "Return the browned 600-750 g brisket to the mixing bowl.",
+      "ingredientLinks": [
+        {
+          "match": "600-750 g brisket",
+          "ingredientIndex": 0
+        }
+      ]
     },
     {
       "text": "Cook using Slow Cook mode / 95°C / 4 hours."
@@ -75,7 +165,13 @@
       "text": "Check the beef. A knife or skewer should slide in very easily. If it still feels firm, cook using Slow Cook mode / 95°C for a further 30 minutes."
     },
     {
-      "text": "Carefully remove the brisket and cover loosely with foil. Remove and discard the 1 bay leaf."
+      "text": "Carefully remove the brisket and cover loosely with foil. Remove and discard the 1 bay leaf.",
+      "ingredientLinks": [
+        {
+          "match": "1 bay leaf",
+          "ingredientIndex": 11
+        }
+      ]
     },
     {
       "text": "Blend the cooking liquid 30 sec / speed 8.",
@@ -88,7 +184,19 @@
       ]
     },
     {
-      "text": "In a small bowl, mix 20-25 g cornflour with 30 g cold water until completely smooth, then add it to the mixing bowl."
+      "text": "In a small bowl, mix 20-25 g cornflour with 30 g cold water until completely smooth, then add it to the mixing bowl.",
+      "ingredientLinks": [
+        {
+          "match": "20-25 g cornflour",
+          "ingredientIndex": 14
+        },
+        {
+          "match": "30 g cold water",
+          "ingredientIndex": 15,
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
     },
     {
       "text": "Cook the gravy 5 min / 100°C / speed 3.",
@@ -102,7 +210,21 @@
       ]
     },
     {
-      "text": "Taste the gravy and adjust with a little extra Marmite, salt or black pepper if needed."
+      "text": "Taste the gravy and adjust with a little extra Marmite, salt or black pepper if needed.",
+      "ingredientLinks": [
+        {
+          "match": "Marmite",
+          "ingredientIndex": 9
+        },
+        {
+          "match": "salt",
+          "ingredientIndex": 12
+        },
+        {
+          "match": "black pepper",
+          "ingredientIndex": 13
+        }
+      ]
     },
     {
       "text": "For a richer, glossy finish, add 15 g butter if using and mix 20 sec / speed 3.",
@@ -111,6 +233,14 @@
           "match": "20 sec / speed 3",
           "time": 20,
           "speed": "3"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "15 g butter",
+          "ingredientIndex": 16,
+          "amount": 15,
+          "unit": "g"
         }
       ]
     },
