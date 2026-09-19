@@ -1,0 +1,121 @@
+{
+  "recipeId": "01M2TTBSDR2M5GVYGQPDM9JPTB",
+  "name": "TM7 Sunday Beef Brisket",
+  "prepTime": 1200,
+  "totalTime": 16200,
+  "ingredients": [
+    "600-750 g rolled beef brisket",
+    "2 onions, quartered",
+    "2 carrots, roughly chopped",
+    "2 garlic cloves",
+    "20 g vegetable oil",
+    "25 g tomato purée",
+    "150 g red wine",
+    "450 g beef stock",
+    "20 g Worcestershire sauce",
+    "1 tsp Marmite",
+    "1 tsp dried thyme",
+    "1 bay leaf",
+    "salt, to taste",
+    "black pepper, to taste",
+    "20-25 g cornflour",
+    "30 g cold water",
+    "15 g butter, optional"
+  ],
+  "steps": [
+    {
+      "text": "Season 600-750 g rolled beef brisket generously with salt and black pepper."
+    },
+    {
+      "text": "Add 20 g vegetable oil to the mixing bowl. Use Browning mode to brown the 600-750 g brisket on several sides, turning it carefully as needed. Remove the beef and set aside.",
+      "actions": []
+    },
+    {
+      "text": "Add 2 quartered onions, 2 roughly chopped carrots and 2 garlic cloves. Chop 5 sec / speed 5.",
+      "actions": [
+        {
+          "match": "5 sec / speed 5",
+          "time": 5,
+          "speed": "5"
+        }
+      ]
+    },
+    {
+      "text": "Scrape down the sides of the mixing bowl, then cook 8 min / 120°C / speed 1.",
+      "actions": [
+        {
+          "match": "8 min / 120°C / speed 1",
+          "time": 480,
+          "temperature": 120,
+          "speed": "1"
+        }
+      ]
+    },
+    {
+      "text": "Add 25 g tomato purée and cook 3 min / 120°C / speed 1.",
+      "actions": [
+        {
+          "match": "3 min / 120°C / speed 1",
+          "time": 180,
+          "temperature": 120,
+          "speed": "1"
+        }
+      ]
+    },
+    {
+      "text": "Add 150 g red wine, 450 g beef stock, 20 g Worcestershire sauce, 1 tsp Marmite, 1 tsp dried thyme and 1 bay leaf."
+    },
+    {
+      "text": "Return the browned 600-750 g brisket to the mixing bowl."
+    },
+    {
+      "text": "Cook using Slow Cook mode / 95°C / 4 hours."
+    },
+    {
+      "text": "Check the beef. A knife or skewer should slide in very easily. If it still feels firm, cook using Slow Cook mode / 95°C for a further 30 minutes."
+    },
+    {
+      "text": "Carefully remove the brisket and cover loosely with foil. Remove and discard the 1 bay leaf."
+    },
+    {
+      "text": "Blend the cooking liquid 30 sec / speed 8.",
+      "actions": [
+        {
+          "match": "30 sec / speed 8",
+          "time": 30,
+          "speed": "8"
+        }
+      ]
+    },
+    {
+      "text": "In a small bowl, mix 20-25 g cornflour with 30 g cold water until completely smooth, then add it to the mixing bowl."
+    },
+    {
+      "text": "Cook the gravy 5 min / 100°C / speed 3.",
+      "actions": [
+        {
+          "match": "5 min / 100°C / speed 3",
+          "time": 300,
+          "temperature": 100,
+          "speed": "3"
+        }
+      ]
+    },
+    {
+      "text": "Taste the gravy and adjust with a little extra Marmite, salt or black pepper if needed."
+    },
+    {
+      "text": "For a richer, glossy finish, add 15 g butter if using and mix 20 sec / speed 3.",
+      "actions": [
+        {
+          "match": "20 sec / speed 3",
+          "time": 20,
+          "speed": "3"
+        }
+      ]
+    },
+    {
+      "text": "Slice or gently pull apart the brisket and serve with plenty of the gravy."
+    }
+  ]
+}
