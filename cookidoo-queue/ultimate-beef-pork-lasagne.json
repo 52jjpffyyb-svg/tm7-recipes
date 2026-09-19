@@ -1,0 +1,292 @@
+{
+  "name": "TM7 Ultimate Beef & Pork Lasagne",
+  "yield": {
+    "value": 6,
+    "unitText": "servings"
+  },
+  "prepTime": 1800,
+  "totalTime": 9900,
+  "ingredients": [
+    "120 g celery, cut into chunks",
+    "120 g carrots, peeled and cut into chunks",
+    "100 g onion, quartered",
+    "2 garlic cloves (approx. 10 g)",
+    "30 g olive oil",
+    "Leaves from 1 small rosemary sprig (approx. 3 g)",
+    "420 g beef mince",
+    "200 g pork mince",
+    "250 g red wine",
+    "500 g chopped tomatoes",
+    "120 g beef stock",
+    "1 tsp salt (approx. 6 g), plus extra to taste",
+    "1/2 tsp black pepper (approx. 1 g), plus extra to taste",
+    "600 g whole milk",
+    "20 g onion",
+    "1 bay leaf",
+    "Freshly grated nutmeg, good pinch",
+    "40 g butter",
+    "40 g plain flour",
+    "1/2 tsp salt (approx. 3 g)",
+    "Black pepper, to taste",
+    "8-10 fresh lasagne sheets (approx. 250 g)",
+    "225 g mozzarella, drained and torn or diced",
+    "40 g Parmesan, finely grated",
+    "15 g butter"
+  ],
+  "steps": [
+    {
+      "text": "Add 120 g celery, 120 g carrots, 100 g onion and 10 g garlic cloves to the mixing bowl. Chop 5 sec / speed 5. Scrape down the sides of the bowl. Add 30 g olive oil and 3 g rosemary leaves. Cook 8 min / 120°C / speed 1 with the measuring cup removed.",
+      "ingredientLinks": [
+        {
+          "match": "120 g celery",
+          "ingredientIndex": 0,
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "match": "120 g carrots",
+          "ingredientIndex": 1,
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "match": "100 g onion",
+          "ingredientIndex": 2,
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "match": "10 g garlic cloves",
+          "ingredientIndex": 3,
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "match": "30 g olive oil",
+          "ingredientIndex": 4,
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "match": "3 g rosemary leaves",
+          "ingredientIndex": 5,
+          "amount": 3,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "5 sec / speed 5",
+          "time": 5,
+          "speed": "5"
+        },
+        {
+          "match": "8 min / 120°C / speed 1",
+          "time": 480,
+          "temperature": 120,
+          "speed": "1"
+        }
+      ]
+    },
+    {
+      "text": "Add 420 g beef mince, 200 g pork mince, 6 g salt and 1 g black pepper, breaking the mince into chunks around the blade. Cook 10 min / 120°C / reverse / speed 1 with the measuring cup removed and the simmering basket on the lid. After about 5 minutes, pause and use the spatula to break up any larger pieces if needed.",
+      "ingredientLinks": [
+        {
+          "match": "420 g beef mince",
+          "ingredientIndex": 6,
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "match": "200 g pork mince",
+          "ingredientIndex": 7,
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "match": "6 g salt",
+          "ingredientIndex": 11,
+          "amount": 6,
+          "unit": "g"
+        },
+        {
+          "match": "1 g black pepper",
+          "ingredientIndex": 12,
+          "amount": 1,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "10 min / 120°C / reverse / speed 1",
+          "time": 600,
+          "temperature": 120,
+          "speed": "1",
+          "direction": "CCW"
+        }
+      ]
+    },
+    {
+      "text": "Add 250 g red wine. Cook 15 min / 120°C / reverse / speed 1 with the measuring cup removed and the simmering basket on the lid, allowing the wine to reduce.",
+      "ingredientLinks": [
+        {
+          "match": "250 g red wine",
+          "ingredientIndex": 8,
+          "amount": 250,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "15 min / 120°C / reverse / speed 1",
+          "time": 900,
+          "temperature": 120,
+          "speed": "1",
+          "direction": "CCW"
+        }
+      ]
+    },
+    {
+      "text": "Add 500 g chopped tomatoes and 120 g beef stock. Cook 50 min / 98°C / reverse / speed 1 with the measuring cup removed and the simmering basket on the lid. The ragù should be rich and fairly thick rather than watery.",
+      "ingredientLinks": [
+        {
+          "match": "500 g chopped tomatoes",
+          "ingredientIndex": 9,
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "match": "120 g beef stock",
+          "ingredientIndex": 10,
+          "amount": 120,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "50 min / 98°C / reverse / speed 1",
+          "time": 3000,
+          "temperature": 98,
+          "speed": "1",
+          "direction": "CCW"
+        }
+      ]
+    },
+    {
+      "text": "Check the ragù. If it still looks too loose, cook 10 min / 120°C / reverse / speed 1 with the measuring cup removed and the simmering basket on the lid. Taste and adjust salt and pepper. Transfer the ragù to a large bowl and set aside.",
+      "actions": [
+        {
+          "match": "10 min / 120°C / reverse / speed 1",
+          "time": 600,
+          "temperature": 120,
+          "speed": "1",
+          "direction": "CCW"
+        }
+      ]
+    },
+    {
+      "text": "Rinse the mixing bowl. Add 600 g whole milk, 20 g onion, 1 bay leaf and a good pinch of freshly grated nutmeg. Cook 8 min / 90°C / reverse / speed 1.",
+      "ingredientLinks": [
+        {
+          "match": "600 g whole milk",
+          "ingredientIndex": 13,
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "match": "20 g onion",
+          "ingredientIndex": 14,
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "match": "1 bay leaf",
+          "ingredientIndex": 15
+        }
+      ],
+      "actions": [
+        {
+          "match": "8 min / 90°C / reverse / speed 1",
+          "time": 480,
+          "temperature": 90,
+          "speed": "1",
+          "direction": "CCW"
+        }
+      ]
+    },
+    {
+      "text": "Remove and discard the bay leaf. Add 40 g butter, 40 g plain flour, 3 g salt and black pepper to taste. Cook 7 min / 90°C / speed 4, then mix 10 sec / speed 5. The béchamel should be smooth, creamy and loose enough to spread.",
+      "ingredientLinks": [
+        {
+          "match": "40 g butter",
+          "ingredientIndex": 17,
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "match": "40 g plain flour",
+          "ingredientIndex": 18,
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "match": "3 g salt",
+          "ingredientIndex": 19,
+          "amount": 3,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "7 min / 90°C / speed 4",
+          "time": 420,
+          "temperature": 90,
+          "speed": "4"
+        },
+        {
+          "match": "10 sec / speed 5",
+          "time": 10,
+          "speed": "5"
+        }
+      ]
+    },
+    {
+      "text": "Preheat the oven to 180°C conventional / 160°C fan. Use 8-10 fresh lasagne sheets. If using dried sheets instead, soak them in boiling water for about 5 minutes, then drain.",
+      "ingredientLinks": [
+        {
+          "match": "8-10 fresh lasagne sheets",
+          "ingredientIndex": 21
+        }
+      ]
+    },
+    {
+      "text": "Spread a thin layer of béchamel over the base of a deep baking dish (about 25 x 20 cm). Build three layers using the ragù, lasagne sheets, 225 g mozzarella, 40 g Parmesan, black pepper and béchamel. Finish with lasagne sheets, the remaining béchamel, mozzarella and Parmesan. Dot 15 g butter over the top.",
+      "ingredientLinks": [
+        {
+          "match": "225 g mozzarella",
+          "ingredientIndex": 22,
+          "amount": 225,
+          "unit": "g"
+        },
+        {
+          "match": "40 g Parmesan",
+          "ingredientIndex": 23,
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "match": "15 g butter",
+          "ingredientIndex": 24,
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Place the dish on a baking tray and bake uncovered in the preheated oven for 30-35 minutes, until deeply golden, bubbling around the edges and the pasta is tender."
+    },
+    {
+      "text": "Leave the lasagne to rest for 10-15 minutes before cutting and serving. This helps the layers set and gives cleaner slices."
+    }
+  ]
+}
