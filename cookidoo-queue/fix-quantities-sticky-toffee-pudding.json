@@ -33,6 +33,20 @@
           "temperature": 100,
           "speed": "1"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "200 g pitted dates",
+          "ingredientIndex": 0,
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "match": "150 g water",
+          "ingredientIndex": 1,
+          "amount": 150,
+          "unit": "g"
+        }
       ]
     },
     {
@@ -58,6 +72,20 @@
           "time": 30,
           "speed": "4"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "100 g softened butter",
+          "ingredientIndex": 2,
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "match": "150 g light muscovado sugar",
+          "ingredientIndex": 3,
+          "amount": 150,
+          "unit": "g"
+        }
       ]
     },
     {
@@ -67,6 +95,12 @@
           "match": "20 sec / speed 4",
           "time": 20,
           "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "2 eggs",
+          "ingredientIndex": 4
         }
       ]
     },
@@ -83,6 +117,42 @@
           "time": 10,
           "speed": "4"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "225 g self-raising flour",
+          "ingredientIndex": 5,
+          "amount": 225,
+          "unit": "g"
+        },
+        {
+          "match": "1 tsp baking powder",
+          "ingredientIndex": 6,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1 tsp bicarbonate of soda",
+          "ingredientIndex": 7,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "3 tbsp black treacle",
+          "ingredientIndex": 8,
+          "amount": 3,
+          "unit": "tbsp"
+        },
+        {
+          "match": "125 g whole milk",
+          "ingredientIndex": 9,
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "match": "20-25 g milk",
+          "ingredientIndex": 9
+        }
       ]
     },
     {
@@ -96,6 +166,38 @@
           "time": 480,
           "temperature": 100,
           "speed": "2"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "100 g butter",
+          "ingredientIndex": 10,
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "match": "125 g light muscovado sugar",
+          "ingredientIndex": 11,
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "match": "1 tbsp black treacle",
+          "ingredientIndex": 12,
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "match": "300 g double cream",
+          "ingredientIndex": 13,
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "match": "1 tsp vanilla extract",
+          "ingredientIndex": 14,
+          "amount": 1,
+          "unit": "tsp"
         }
       ]
     },
