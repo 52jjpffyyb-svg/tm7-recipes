@@ -1,0 +1,85 @@
+{
+  "recipeId": "01M2TRCWQ4RK9B192QR5C9XW3G",
+  "name": "TM7 Egg Fried Rice",
+  "yield": {
+    "value": 4,
+    "unitText": "portion"
+  },
+  "prepTime": 600,
+  "totalTime": 2460,
+  "ingredients": [
+    "300 g jasmine rice",
+    "1000 g water",
+    "3 eggs",
+    "20 g neutral cooking oil",
+    "3 spring onions, sliced, white and green parts separated",
+    "100 g frozen peas",
+    "1 tbsp light soy sauce",
+    "1 tsp sesame oil",
+    "1/4 tsp white pepper",
+    "1/4 tsp MSG, optional",
+    "1 pinch salt"
+  ],
+  "steps": [
+    {
+      "text": "Rinse 300 g jasmine rice thoroughly. Put 1000 g water into the mixing bowl. Put the 300 g rinsed rice in the simmering basket, insert the basket and cook 20 min / 100°C / speed 4. Check the rice and cook for another 2-3 minutes if needed. Remove the basket and spread the rice on a tray to cool. Empty and dry the mixing bowl.",
+      "actions": [
+        {
+          "match": "20 min / 100°C / speed 4",
+          "time": 1200,
+          "temperature": 100,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Add 10 g neutral oil, 3 eggs and 1 pinch salt to the mixing bowl. Cook 4 min / 100°C / reverse / speed 1. Then mix 3 sec / reverse / speed 3. Transfer the egg to a bowl.",
+      "actions": [
+        {
+          "match": "4 min / 100°C / reverse / speed 1",
+          "time": 240,
+          "temperature": 100,
+          "speed": "1",
+          "direction": "CCW"
+        },
+        {
+          "match": "3 sec / reverse / speed 3",
+          "time": 3,
+          "speed": "3",
+          "direction": "CCW"
+        }
+      ]
+    },
+    {
+      "text": "Add the remaining 10 g neutral oil and the white and light-green parts of 3 sliced spring onions. Cook 3 min / 120°C / reverse / speed 1. Add 100 g frozen peas and cook 2 min / 120°C / reverse / speed 0.5.",
+      "actions": [
+        {
+          "match": "3 min / 120°C / reverse / speed 1",
+          "time": 180,
+          "temperature": 120,
+          "speed": "1",
+          "direction": "CCW"
+        },
+        {
+          "match": "2 min / 120°C / reverse / speed 0.5",
+          "time": 120,
+          "temperature": 120,
+          "speed": "0.5",
+          "direction": "CCW"
+        }
+      ]
+    },
+    {
+      "text": "Add all the cooled cooked rice, the cooked egg, 1 tbsp light soy sauce, 1 tsp sesame oil, 1/4 tsp white pepper and 1/4 tsp MSG if using. Mix 2 min / 100°C / reverse / speed 0.5. Halfway through, stop and gently bring the rice from the bottom upwards with the spatula if needed. Finish with the green tops from the 3 spring onions.",
+      "actions": [
+        {
+          "match": "2 min / 100°C / reverse / speed 0.5",
+          "time": 120,
+          "temperature": 100,
+          "speed": "0.5",
+          "direction": "CCW"
+        }
+      ]
+    }
+  ]
+}
