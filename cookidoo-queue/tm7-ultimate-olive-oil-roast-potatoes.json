@@ -1,0 +1,126 @@
+{
+  "name": "TM7 Ultimate Olive Oil Roast Potatoes",
+  "yield": {
+    "value": 6,
+    "unitText": "portion"
+  },
+  "prepTime": 1200,
+  "totalTime": 6600,
+  "ingredients": [
+    "1000 g Maris Piper or King Edward potatoes",
+    "1200 g water, plus extra for peeling if using Peeler mode",
+    "1 1/2 tsp fine salt, plus extra to finish",
+    "1/2 tsp bicarbonate of soda",
+    "80 g olive oil",
+    "4 garlic cloves, lightly crushed",
+    "2-3 sprigs fresh rosemary or thyme",
+    "black pepper, to taste"
+  ],
+  "steps": [
+    {
+      "text": "Peel 1000 g potatoes and cut into chunky roast-potato pieces, roughly 4-5 cm. If using the TM7 Blade Cover & Peeler, peel in 2 batches of 500 g potatoes, using 600 g water for each batch and Peeler mode. Drain and rinse after peeling.",
+      "ingredientLinks": [
+        {
+          "match": "1000 g potatoes",
+          "ingredientIndex": 0,
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "match": "500 g potatoes",
+          "ingredientIndex": 0,
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "match": "600 g water",
+          "ingredientIndex": 1,
+          "amount": 600,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Preheat the oven to 210°C fan. Place a large heavy metal roasting tray in the oven so it gets thoroughly hot.",
+      "actions": []
+    },
+    {
+      "text": "Fit the Blade Cover & Peeler securely over the mixing knife. Add the 1000 g prepared potatoes, 1200 g water, 1 1/2 tsp fine salt and 1/2 tsp bicarbonate of soda. Make sure the contents do not exceed the maximum fill level.",
+      "ingredientLinks": [
+        {
+          "match": "1000 g prepared potatoes",
+          "ingredientIndex": 0,
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "match": "1200 g water",
+          "ingredientIndex": 1,
+          "amount": 1200,
+          "unit": "g"
+        },
+        {
+          "match": "1 1/2 tsp fine salt",
+          "ingredientIndex": 2,
+          "amount": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/2 tsp bicarbonate of soda",
+          "ingredientIndex": 3,
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      ]
+    },
+    {
+      "text": "Cook using Slow Cook mode / 98°C / 25 minutes. Check the potatoes: the outer edges should be tender and beginning to soften while the pieces still hold together. If they are still very firm, cook for a further 5 minutes at 98°C using Slow Cook mode."
+    },
+    {
+      "text": "Carefully drain the potatoes using the Varoma dish or a large colander. Leave them to steam-dry for 5 minutes. Transfer to a large bowl or dry saucepan and shake them firmly a few times to rough up the edges. The fluffy, battered-looking edges will become the crispy crust."
+    },
+    {
+      "text": "Add 80 g olive oil to the hot roasting tray and return the tray to the oven for 5 minutes so the oil is properly hot.",
+      "ingredientLinks": [
+        {
+          "match": "80 g olive oil",
+          "ingredientIndex": 4,
+          "amount": 80,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Carefully add the roughened potatoes to the hot oil. Turn each piece so it is coated all over, spread into a single layer and roast at 210°C fan for 25 minutes."
+    },
+    {
+      "text": "Turn the potatoes and roast for a further 20 minutes at 210°C fan."
+    },
+    {
+      "text": "Turn the potatoes again. Add 4 lightly crushed garlic cloves and 2-3 sprigs fresh rosemary or thyme, then roast for a final 15-20 minutes until deeply golden and extremely crisp.",
+      "ingredientLinks": [
+        {
+          "match": "4 lightly crushed garlic cloves",
+          "ingredientIndex": 5
+        },
+        {
+          "match": "2-3 sprigs fresh rosemary or thyme",
+          "ingredientIndex": 6
+        }
+      ]
+    },
+    {
+      "text": "Remove from the oven, season immediately with extra fine salt and black pepper to taste, then serve while piping hot and crisp.",
+      "ingredientLinks": [
+        {
+          "match": "fine salt",
+          "ingredientIndex": 2
+        },
+        {
+          "match": "black pepper",
+          "ingredientIndex": 7
+        }
+      ]
+    }
+  ]
+}
