@@ -23,6 +23,14 @@
           "time": 8,
           "speed": "7"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "100 g mild Cheddar",
+          "ingredientIndex": 0,
+          "amount": 100,
+          "unit": "g"
+        }
       ]
     },
     {
@@ -33,6 +41,12 @@
           "time": 3,
           "speed": "8"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "3-4 garlic cloves",
+          "ingredientIndex": 1
+        }
       ]
     },
     {
@@ -42,6 +56,46 @@
           "match": "15 sec / speed 4",
           "time": 15,
           "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "200 g cream cheese",
+          "ingredientIndex": 2,
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "match": "40 g mayonnaise",
+          "ingredientIndex": 3,
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "match": "1 tsp lemon juice",
+          "ingredientIndex": 4,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1 tsp Dijon mustard",
+          "ingredientIndex": 5,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "0.5 tsp salt",
+          "ingredientIndex": 6,
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "black pepper",
+          "ingredientIndex": 7
+        },
+        {
+          "match": "100 g grated Cheddar",
+          "ingredientIndex": 0
         }
       ]
     },
@@ -59,7 +113,13 @@
       "text": "Taste and adjust the seasoning. Refrigerate for 30-60 minutes before serving to allow the garlic flavour to develop."
     },
     {
-      "text": "Serve with fresh bread, rye bread, crackers or sliced baguette. Garnish with chopped chives or parsley if desired."
+      "text": "Serve with fresh bread, rye bread, crackers or sliced baguette. Garnish with chopped chives or parsley if desired.",
+      "ingredientLinks": [
+        {
+          "match": "chopped chives or parsley",
+          "ingredientIndex": 8
+        }
+      ]
     }
   ]
 }
