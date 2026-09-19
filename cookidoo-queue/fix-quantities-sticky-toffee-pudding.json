@@ -1,0 +1,120 @@
+{
+  "recipeId": "01M2TRWVF1X0EVK1FGRSH2JT33",
+  "name": "Sticky Toffee Pudding with Dates & Toffee Sauce",
+  "prepTime": 1200,
+  "totalTime": 4200,
+  "ingredients": [
+    "200 g pitted dates",
+    "150 g water",
+    "100 g butter, softened",
+    "150 g light muscovado sugar",
+    "2 eggs",
+    "225 g self-raising flour",
+    "1 tsp baking powder",
+    "1 tsp bicarbonate of soda",
+    "3 tbsp black treacle",
+    "125 g whole milk, plus 20-25 g extra if needed",
+    "100 g butter, for the toffee sauce",
+    "125 g light muscovado sugar, for the toffee sauce",
+    "1 tbsp black treacle, for the toffee sauce",
+    "300 g double cream",
+    "1 tsp vanilla extract"
+  ],
+  "steps": [
+    {
+      "text": "Heat the oven to 160°C fan. Grease a suitable baking dish."
+    },
+    {
+      "text": "Put 200 g pitted dates and 150 g water into the mixing bowl. Cook 5 min / 100°C / speed 1.",
+      "actions": [
+        {
+          "match": "5 min / 100°C / speed 1",
+          "time": 300,
+          "temperature": 100,
+          "speed": "1"
+        }
+      ]
+    },
+    {
+      "text": "Blend the softened dates 20 sec / speed 8. Scrape down the sides. If needed, blend for a further 10 sec / speed 8 until smooth.",
+      "actions": [
+        {
+          "match": "20 sec / speed 8",
+          "time": 20,
+          "speed": "8"
+        },
+        {
+          "match": "10 sec / speed 8",
+          "time": 10,
+          "speed": "8"
+        }
+      ]
+    },
+    {
+      "text": "Add 100 g softened butter and 150 g light muscovado sugar. Mix 30 sec / speed 4.",
+      "actions": [
+        {
+          "match": "30 sec / speed 4",
+          "time": 30,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Add 2 eggs and mix 20 sec / speed 4.",
+      "actions": [
+        {
+          "match": "20 sec / speed 4",
+          "time": 20,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Add 225 g self-raising flour, 1 tsp baking powder, 1 tsp bicarbonate of soda, 3 tbsp black treacle and 125 g whole milk. Mix 20 sec / speed 4. Scrape down the sides and mix for a further 10 sec / speed 4. Add a further 20-25 g milk only if the batter seems very thick.",
+      "actions": [
+        {
+          "match": "20 sec / speed 4",
+          "time": 20,
+          "speed": "4"
+        },
+        {
+          "match": "10 sec / speed 4",
+          "time": 10,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Pour the batter into the prepared dish and bake at 160°C fan for 40-45 minutes. Check from about 38-40 minutes; the centre should be risen and just cooked through."
+    },
+    {
+      "text": "While the pudding bakes, clean the mixing bowl. Add 100 g butter, 125 g light muscovado sugar, 1 tbsp black treacle, 300 g double cream and 1 tsp vanilla extract. Cook 8 min / 100°C / speed 2 with the measuring cup off.",
+      "actions": [
+        {
+          "match": "8 min / 100°C / speed 2",
+          "time": 480,
+          "temperature": 100,
+          "speed": "2"
+        }
+      ]
+    },
+    {
+      "text": "Thicken the toffee sauce for 2-3 min / 120°C / speed 2 with the measuring cup off.",
+      "actions": [
+        {
+          "match": "2-3 min / 120°C / speed 2",
+          "time": 120,
+          "temperature": 120,
+          "speed": "2"
+        }
+      ]
+    },
+    {
+      "text": "When the pudding is baked, poke holes all over the top. Pour about half of the hot toffee sauce evenly over the pudding and leave it to soak for 5-10 minutes."
+    },
+    {
+      "text": "Serve the sticky toffee pudding warm with the remaining toffee sauce alongside."
+    }
+  ]
+}
