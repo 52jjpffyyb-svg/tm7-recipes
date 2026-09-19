@@ -2,7 +2,7 @@
   "name": "TM7 Ultimate Beef & Pork Lasagne",
   "yield": {
     "value": 6,
-    "unitText": "servings"
+    "unitText": "portion"
   },
   "prepTime": 1800,
   "totalTime": 9900,
@@ -288,5 +288,6 @@
     {
       "text": "Leave the lasagne to rest for 10-15 minutes before cutting and serving. This helps the layers set and gives cleaner slices."
     }
-  ]
+  ],
+  "recipeId": "01M2X726J0KY23X5BRRDPH8XFS"
 }
