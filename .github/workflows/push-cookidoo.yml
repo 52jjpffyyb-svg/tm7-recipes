@@ -39,7 +39,7 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             printf '%s\n' "${{ inputs.recipe_file }}" > /tmp/cookidoo-files.txt
           else
-            git diff --name-only --diff-filter=A "${{ github.event.before }}" "${{ github.sha }}" -- 'cookidoo-queue/*.json' > /tmp/cookidoo-files.txt
+            git diff --name-only --diff-filter=AM "${{ github.event.before }}" "${{ github.sha }}" -- 'cookidoo-queue/*.json' > /tmp/cookidoo-files.txt
           fi
 
           echo "Recipe files:"
