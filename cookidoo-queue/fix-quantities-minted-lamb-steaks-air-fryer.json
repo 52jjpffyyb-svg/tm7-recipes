@@ -31,6 +31,18 @@
           "time": 3,
           "speed": "8"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "20 g fresh mint",
+          "ingredientIndex": 1,
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "match": "2 garlic cloves",
+          "ingredientIndex": 2
+        }
       ]
     },
     {
@@ -40,6 +52,60 @@
           "match": "10 sec / speed 5",
           "time": 10,
           "speed": "5"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "60 g olive oil",
+          "ingredientIndex": 3,
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "match": "1 tbsp lemon juice",
+          "ingredientIndex": 4,
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "match": "finely grated zest of 1/2 lemon",
+          "ingredientIndex": 5
+        },
+        {
+          "match": "1 tbsp honey",
+          "ingredientIndex": 6,
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "match": "1 tbsp English mustard",
+          "ingredientIndex": 7,
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "match": "1 tsp rosemary",
+          "ingredientIndex": 8,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1 tsp flaky sea salt",
+          "ingredientIndex": 9,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/4 tsp MSG",
+          "ingredientIndex": 10,
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/2 tsp black pepper",
+          "ingredientIndex": 11,
+          "amount": 0.5,
+          "unit": "tsp"
         }
       ]
     },
@@ -51,19 +117,43 @@
           "time": 5,
           "speed": "4"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "1-2 tbsp water",
+          "ingredientIndex": 12
+        }
       ]
     },
     {
-      "text": "Coat 4 lamb leg steaks thoroughly in the marinade. Cover and refrigerate for at least 2 hours, or overnight for a stronger flavour."
+      "text": "Coat 4 lamb leg steaks thoroughly in the marinade. Cover and refrigerate for at least 2 hours, or overnight for a stronger flavour.",
+      "ingredientLinks": [
+        {
+          "match": "4 lamb leg steaks",
+          "ingredientIndex": 0
+        }
+      ]
     },
     {
-      "text": "Remove the 4 lamb steaks from the refrigerator 20-30 minutes before cooking."
+      "text": "Remove the 4 lamb steaks from the refrigerator 20-30 minutes before cooking.",
+      "ingredientLinks": [
+        {
+          "match": "4 lamb steaks",
+          "ingredientIndex": 0
+        }
+      ]
     },
     {
       "text": "Preheat the air fryer to 200°C. Shake or scrape off any very heavy excess marinade so the honey does not burn, leaving the steaks well coated."
     },
     {
-      "text": "Air fry the 4 lamb steaks at 200°C, turning halfway: approximately 8 minutes for pink to medium, 9-10 minutes for medium, or 11-12 minutes for more well done. Cooking time will vary with thickness."
+      "text": "Air fry the 4 lamb steaks at 200°C, turning halfway: approximately 8 minutes for pink to medium, 9-10 minutes for medium, or 11-12 minutes for more well done. Cooking time will vary with thickness.",
+      "ingredientLinks": [
+        {
+          "match": "4 lamb steaks",
+          "ingredientIndex": 0
+        }
+      ]
     },
     {
       "text": "Rest the lamb steaks for 5 minutes before serving."
