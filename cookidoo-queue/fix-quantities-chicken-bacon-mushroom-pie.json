@@ -37,19 +37,51 @@
           "time": 3,
           "speed": "7"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "15 g fresh parsley",
+          "ingredientIndex": 16,
+          "amount": 15,
+          "unit": "g"
+        }
       ]
     },
     {
       "text": "Add 200 g bacon to the mixing bowl. Use Browning mode at 160°C for 6-8 minutes until lightly browned. Transfer the bacon to a large bowl, keeping any cooking juices.",
-      "actions": []
+      "actions": [],
+      "ingredientLinks": [
+        {
+          "match": "200 g bacon",
+          "ingredientIndex": 1,
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
     },
     {
       "text": "Add 350 g sliced mushrooms to the mixing bowl. Use Browning mode at 160°C for 8-10 minutes until the excess moisture has cooked away. Transfer to the bowl with the bacon and keep any juices.",
-      "actions": []
+      "actions": [],
+      "ingredientLinks": [
+        {
+          "match": "350 g sliced mushrooms",
+          "ingredientIndex": 2,
+          "amount": 350,
+          "unit": "g"
+        }
+      ]
     },
     {
       "text": "Brown 900 g chicken thighs in batches using Browning mode at 160°C for 5-6 minutes per batch. Transfer the browned chicken to the bowl with the bacon and mushrooms. Reserve the cooking juices.",
-      "actions": []
+      "actions": [],
+      "ingredientLinks": [
+        {
+          "match": "900 g chicken thighs",
+          "ingredientIndex": 0,
+          "amount": 900,
+          "unit": "g"
+        }
+      ]
     },
     {
       "text": "Put 1 sliced leek, 1 quartered onion and 3 garlic cloves into the mixing bowl and chop 5 sec / speed 5. Scrape down the sides.",
@@ -58,6 +90,20 @@
           "match": "5 sec / speed 5",
           "time": 5,
           "speed": "5"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "1 sliced leek",
+          "ingredientIndex": 3
+        },
+        {
+          "match": "1 quartered onion",
+          "ingredientIndex": 4
+        },
+        {
+          "match": "3 garlic cloves",
+          "ingredientIndex": 5
         }
       ]
     },
@@ -70,6 +116,14 @@
           "temperature": 120,
           "speed": "1"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "30 g butter",
+          "ingredientIndex": 6,
+          "amount": 30,
+          "unit": "g"
+        }
       ]
     },
     {
@@ -80,6 +134,14 @@
           "time": 120,
           "temperature": 120,
           "speed": "2"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "50 g plain flour",
+          "ingredientIndex": 7,
+          "amount": 50,
+          "unit": "g"
         }
       ]
     },
@@ -97,6 +159,56 @@
           "temperature": 100,
           "speed": "2"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "275 g total",
+          "ingredientIndex": 8,
+          "amount": 275,
+          "unit": "g"
+        },
+        {
+          "match": "150 g double cream",
+          "ingredientIndex": 9,
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "match": "20 g Dijon mustard",
+          "ingredientIndex": 10,
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "match": "10 g Worcestershire sauce",
+          "ingredientIndex": 11,
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "match": "5 g Marmite",
+          "ingredientIndex": 12,
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "match": "1 tsp dried thyme",
+          "ingredientIndex": 13,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/2 tsp paprika",
+          "ingredientIndex": 14,
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/2 tsp black pepper",
+          "ingredientIndex": 15,
+          "amount": 0.5,
+          "unit": "tsp"
+        }
       ]
     },
     {
@@ -108,19 +220,59 @@
           "speed": "2",
           "direction": "CCW"
         }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "15 g chopped parsley",
+          "ingredientIndex": 16
+        }
       ]
     },
     {
-      "text": "Pour the sauce over the 900 g chicken, 200 g bacon and 350 g mushrooms in the large bowl and fold together. Leave the filling to cool before assembling the pie."
+      "text": "Pour the sauce over the 900 g chicken, 200 g bacon and 350 g mushrooms in the large bowl and fold together. Leave the filling to cool before assembling the pie.",
+      "ingredientLinks": [
+        {
+          "match": "900 g chicken",
+          "ingredientIndex": 0
+        },
+        {
+          "match": "200 g bacon",
+          "ingredientIndex": 1
+        },
+        {
+          "match": "350 g mushrooms",
+          "ingredientIndex": 2
+        }
+      ]
     },
     {
-      "text": "Heat the oven to 190°C fan. Use about 600 g puff pastry to line the base and sides of the pie dish. Prick the base, line with baking paper, fill well with baking beans or weights and blind bake for 15 minutes."
+      "text": "Heat the oven to 190°C fan. Use about 600 g puff pastry to line the base and sides of the pie dish. Prick the base, line with baking paper, fill well with baking beans or weights and blind bake for 15 minutes.",
+      "ingredientLinks": [
+        {
+          "match": "600 g puff pastry",
+          "ingredientIndex": 17,
+          "amount": 600,
+          "unit": "g"
+        }
+      ]
     },
     {
       "text": "Remove the baking paper and weights and return the pastry case to the oven for a further 5-7 minutes until the base is lightly golden and dry."
     },
     {
-      "text": "Spoon the cooled filling into the pastry case. Roll out the remaining 400 g puff pastry for the lid. Fit the lid, seal and crimp the edges, cut a small steam hole and brush with 1 beaten egg."
+      "text": "Spoon the cooled filling into the pastry case. Roll out the remaining 400 g puff pastry for the lid. Fit the lid, seal and crimp the edges, cut a small steam hole and brush with 1 beaten egg.",
+      "ingredientLinks": [
+        {
+          "match": "400 g puff pastry",
+          "ingredientIndex": 17,
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "match": "1 beaten egg",
+          "ingredientIndex": 18
+        }
+      ]
     },
     {
       "text": "Increase the oven to 200°C fan and bake for 20 minutes. Reduce to 180°C fan and bake for a further 20-25 minutes until deeply golden and piping hot."
