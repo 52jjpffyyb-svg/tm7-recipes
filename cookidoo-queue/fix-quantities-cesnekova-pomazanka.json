@@ -1,0 +1,65 @@
+{
+  "recipeId": "01M2TTMDAM5MAS5YBT8ACDY9GY",
+  "name": "Česneková Pomazánka (Czech Garlic Cheese Spread)",
+  "prepTime": 600,
+  "totalTime": 2400,
+  "ingredients": [
+    "100 g mild Cheddar, cut into 2-3 cm pieces",
+    "3-4 garlic cloves",
+    "200 g cream cheese",
+    "40 g mayonnaise",
+    "1 tsp lemon juice",
+    "1 tsp Dijon mustard, optional",
+    "0.5 tsp salt",
+    "black pepper, to taste",
+    "chopped chives or parsley, optional"
+  ],
+  "steps": [
+    {
+      "text": "Put 100 g mild Cheddar into the mixing bowl and grate 8 sec / speed 7. Transfer to a bowl and set aside.",
+      "actions": [
+        {
+          "match": "8 sec / speed 7",
+          "time": 8,
+          "speed": "7"
+        }
+      ]
+    },
+    {
+      "text": "Put 3-4 garlic cloves into the mixing bowl and chop 3 sec / speed 8. Scrape down the sides.",
+      "actions": [
+        {
+          "match": "3 sec / speed 8",
+          "time": 3,
+          "speed": "8"
+        }
+      ]
+    },
+    {
+      "text": "Add 200 g cream cheese, 40 g mayonnaise, 1 tsp lemon juice, 1 tsp Dijon mustard if using, 0.5 tsp salt, black pepper to taste and the 100 g grated Cheddar. Mix 15 sec / speed 4.",
+      "actions": [
+        {
+          "match": "15 sec / speed 4",
+          "time": 15,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Scrape down the sides. Mix for a further 10 sec / speed 3 if needed.",
+      "actions": [
+        {
+          "match": "10 sec / speed 3",
+          "time": 10,
+          "speed": "3"
+        }
+      ]
+    },
+    {
+      "text": "Taste and adjust the seasoning. Refrigerate for 30-60 minutes before serving to allow the garlic flavour to develop."
+    },
+    {
+      "text": "Serve with fresh bread, rye bread, crackers or sliced baguette. Garnish with chopped chives or parsley if desired."
+    }
+  ]
+}
