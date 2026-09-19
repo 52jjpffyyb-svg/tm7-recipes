@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import process from "node:process";
-import { CookidooClient, step, tts } from "@recode-software/cookidoo-api";
+import { CookidooClient, step, tts, ingredient } from "@recode-software/cookidoo-api";
 
 const file = process.argv[2];
 if (!file) {
@@ -83,6 +83,47 @@ const instructions = recipe.steps.map((item, index) => {
 
     return tts(data);
   });
+
+  for (const [linkIndex, link] of (item.ingredientLinks ?? []).entries()) {
+    const match = link.match;
+    const offset = text.indexOf(match);
+
+    if (!match || offset < 0) {
+      throw new Error(
+        `Step ${index + 1}, ingredient link ${linkIndex + 1}: match text was not found in step text.`
+      );
+    }
+
+    const description =
+      link.description ??
+      (Number.isInteger(link.ingredientIndex) ? recipe.ingredients[link.ingredientIndex] : match);
+
+    if (!description) {
+      throw new Error(
+        `Step ${index + 1}, ingredient link ${linkIndex + 1}: no ingredient description found.`
+      );
+    }
+
+    if (Number.isFinite(link.amount) && link.unit) {
+      annotations.push(
+        ingredient.structured({
+          offset,
+          length: match.length,
+          description,
+          amount: link.amount,
+          unit: link.unit
+        })
+      );
+    } else {
+      annotations.push(
+        ingredient.simple({
+          offset,
+          length: match.length,
+          description
+        })
+      );
+    }
+  }
 
   return step(text, annotations);
 });
