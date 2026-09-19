@@ -1,0 +1,132 @@
+{
+  "recipeId": "01M2TRSK93WDHER09DKVMSHFKN",
+  "name": "Chicken, Bacon & Mushroom Pie",
+  "yield": {
+    "value": 6,
+    "unitText": "portion"
+  },
+  "prepTime": 2700,
+  "totalTime": 7200,
+  "ingredients": [
+    "900 g boneless skinless chicken thighs, cut into bite-size pieces",
+    "200 g bacon, cut into pieces",
+    "350 g mushrooms, sliced",
+    "1 leek, trimmed and sliced",
+    "1 onion, quartered",
+    "3 garlic cloves",
+    "30 g butter",
+    "50 g plain flour",
+    "275 g total reserved cooking juices and chicken stock",
+    "150 g double cream",
+    "20 g Dijon mustard",
+    "10 g Worcestershire sauce",
+    "5 g Marmite",
+    "1 tsp dried thyme",
+    "1/2 tsp paprika",
+    "1/2 tsp black pepper",
+    "15 g fresh parsley",
+    "1000 g puff pastry",
+    "1 egg, beaten, for glazing"
+  ],
+  "steps": [
+    {
+      "text": "Put 15 g fresh parsley into the mixing bowl and chop 3 sec / speed 7. Transfer to a small bowl and set aside.",
+      "actions": [
+        {
+          "match": "3 sec / speed 7",
+          "time": 3,
+          "speed": "7"
+        }
+      ]
+    },
+    {
+      "text": "Add 200 g bacon to the mixing bowl. Use Browning mode at 160°C for 6-8 minutes until lightly browned. Transfer the bacon to a large bowl, keeping any cooking juices.",
+      "actions": []
+    },
+    {
+      "text": "Add 350 g sliced mushrooms to the mixing bowl. Use Browning mode at 160°C for 8-10 minutes until the excess moisture has cooked away. Transfer to the bowl with the bacon and keep any juices.",
+      "actions": []
+    },
+    {
+      "text": "Brown 900 g chicken thighs in batches using Browning mode at 160°C for 5-6 minutes per batch. Transfer the browned chicken to the bowl with the bacon and mushrooms. Reserve the cooking juices.",
+      "actions": []
+    },
+    {
+      "text": "Put 1 sliced leek, 1 quartered onion and 3 garlic cloves into the mixing bowl and chop 5 sec / speed 5. Scrape down the sides.",
+      "actions": [
+        {
+          "match": "5 sec / speed 5",
+          "time": 5,
+          "speed": "5"
+        }
+      ]
+    },
+    {
+      "text": "Add 30 g butter and cook 6 min / 120°C / speed 1.",
+      "actions": [
+        {
+          "match": "6 min / 120°C / speed 1",
+          "time": 360,
+          "temperature": 120,
+          "speed": "1"
+        }
+      ]
+    },
+    {
+      "text": "Add 50 g plain flour and cook 2 min / 120°C / speed 2.",
+      "actions": [
+        {
+          "match": "2 min / 120°C / speed 2",
+          "time": 120,
+          "temperature": 120,
+          "speed": "2"
+        }
+      ]
+    },
+    {
+      "text": "Weigh in enough chicken stock to the reserved cooking juices to make 275 g total. Add this to the mixing bowl with 150 g double cream, 20 g Dijon mustard, 10 g Worcestershire sauce, 5 g Marmite, 1 tsp dried thyme, 1/2 tsp paprika and 1/2 tsp black pepper. Mix 10 sec / speed 4, then cook 10 min / 100°C / speed 2. The sauce should be thick like a white sauce and briefly hold a track from the spatula.",
+      "actions": [
+        {
+          "match": "10 sec / speed 4",
+          "time": 10,
+          "speed": "4"
+        },
+        {
+          "match": "10 min / 100°C / speed 2",
+          "time": 600,
+          "temperature": 100,
+          "speed": "2"
+        }
+      ]
+    },
+    {
+      "text": "Add the reserved 15 g chopped parsley and mix 10 sec / reverse / speed 2.",
+      "actions": [
+        {
+          "match": "10 sec / reverse / speed 2",
+          "time": 10,
+          "speed": "2",
+          "direction": "CCW"
+        }
+      ]
+    },
+    {
+      "text": "Pour the sauce over the 900 g chicken, 200 g bacon and 350 g mushrooms in the large bowl and fold together. Leave the filling to cool before assembling the pie."
+    },
+    {
+      "text": "Heat the oven to 190°C fan. Use about 600 g puff pastry to line the base and sides of the pie dish. Prick the base, line with baking paper, fill well with baking beans or weights and blind bake for 15 minutes."
+    },
+    {
+      "text": "Remove the baking paper and weights and return the pastry case to the oven for a further 5-7 minutes until the base is lightly golden and dry."
+    },
+    {
+      "text": "Spoon the cooled filling into the pastry case. Roll out the remaining 400 g puff pastry for the lid. Fit the lid, seal and crimp the edges, cut a small steam hole and brush with 1 beaten egg."
+    },
+    {
+      "text": "Increase the oven to 200°C fan and bake for 20 minutes. Reduce to 180°C fan and bake for a further 20-25 minutes until deeply golden and piping hot."
+    },
+    {
+      "text": "Rest the pie for 10-15 minutes before serving."
+    }
+  ]
+}
