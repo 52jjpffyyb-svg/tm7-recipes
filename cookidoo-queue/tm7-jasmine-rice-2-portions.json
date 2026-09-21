@@ -1,0 +1,73 @@
+{
+  "name": "TM7 Jasmine Rice – 2 Portions",
+  "yield": {
+    "value": 2,
+    "unitText": "portion"
+  },
+  "prepTime": 300,
+  "totalTime": 1560,
+  "ingredients": [
+    "150 g jasmine rice",
+    "1000 g water",
+    "1/2 tsp fine salt",
+    "1 tsp olive oil or butter, optional"
+  ],
+  "steps": [
+    {
+      "text": "Rinse 150 g jasmine rice thoroughly under cold water until the water runs almost clear. Put 1000 g water and 1/2 tsp fine salt into the mixing bowl. Put the 150 g rinsed jasmine rice into the simmering basket and insert the basket.",
+      "ingredientLinks": [
+        {
+          "match": "150 g jasmine rice",
+          "ingredientIndex": 0,
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "match": "1000 g water",
+          "ingredientIndex": 1,
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "match": "1/2 tsp fine salt",
+          "ingredientIndex": 2,
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      ]
+    },
+    {
+      "text": "Cook 18 min / 100°C / speed 4.",
+      "actions": [
+        {
+          "match": "18 min / 100°C / speed 4",
+          "time": 1080,
+          "temperature": 100,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Check the rice. If you prefer it slightly softer, cook for a further 2 min / 100°C / speed 4.",
+      "actions": [
+        {
+          "match": "2 min / 100°C / speed 4",
+          "time": 120,
+          "temperature": 100,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Carefully lift out the simmering basket. Fluff the rice with a fork. Stir through 1 tsp olive oil or butter if using, then leave to stand for 3-5 minutes before serving.",
+      "ingredientLinks": [
+        {
+          "match": "1 tsp olive oil or butter",
+          "ingredientIndex": 3,
+          "amount": 1,
+          "unit": "tsp"
+        }
+      ]
+    }
+  ]
+}
