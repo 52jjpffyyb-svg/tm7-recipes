@@ -2,7 +2,7 @@
   "name": "TM7 Easy Toddler Mac & Cheese",
   "yield": {
     "value": 2,
-    "unitText": "toddler portion"
+    "unitText": "portion"
   },
   "prepTime": 300,
   "totalTime": 1800,
@@ -136,5 +136,6 @@
         }
       ]
     }
-  ]
+  ],
+  "recipeId": "01M34RNY3KQ3JD4DXV7G6KYEFT"
 }
