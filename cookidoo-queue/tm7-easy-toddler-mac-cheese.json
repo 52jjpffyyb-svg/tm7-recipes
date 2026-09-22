@@ -1,0 +1,140 @@
+{
+  "name": "TM7 Easy Toddler Mac & Cheese",
+  "yield": {
+    "value": 2,
+    "unitText": "toddler portion"
+  },
+  "prepTime": 300,
+  "totalTime": 1800,
+  "ingredients": [
+    "100 g macaroni",
+    "600 g water",
+    "10 g unsalted butter",
+    "10 g plain flour",
+    "250 g whole milk",
+    "60 g mild Cheddar, cut into chunks"
+  ],
+  "steps": [
+    {
+      "text": "Put 60 g mild Cheddar into the mixing bowl and grate 5 sec / speed 7. Transfer to a bowl and set aside.",
+      "actions": [
+        {
+          "match": "5 sec / speed 7",
+          "time": 5,
+          "speed": "7"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "60 g mild Cheddar",
+          "ingredientIndex": 5,
+          "amount": 60,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Put 600 g water into the mixing bowl and heat 7 min / 100°C / speed 1.",
+      "actions": [
+        {
+          "match": "7 min / 100°C / speed 1",
+          "time": 420,
+          "temperature": 100,
+          "speed": "1"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "600 g water",
+          "ingredientIndex": 1,
+          "amount": 600,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 100 g macaroni and cook 10 min / 100°C / reverse / speed 0.5, with the measuring cup removed. Check the pasta is nice and soft; cook for another 1-2 minutes if needed. Drain the macaroni and set aside.",
+      "actions": [
+        {
+          "match": "10 min / 100°C / reverse / speed 0.5",
+          "time": 600,
+          "temperature": 100,
+          "speed": "0.5",
+          "direction": "CCW"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "100 g macaroni",
+          "ingredientIndex": 0,
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Put 10 g unsalted butter, 10 g plain flour and 250 g whole milk into the mixing bowl. Cook 6 min / 90°C / speed 3.",
+      "actions": [
+        {
+          "match": "6 min / 90°C / speed 3",
+          "time": 360,
+          "temperature": 90,
+          "speed": "3"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "10 g unsalted butter",
+          "ingredientIndex": 2,
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "match": "10 g plain flour",
+          "ingredientIndex": 3,
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "match": "250 g whole milk",
+          "ingredientIndex": 4,
+          "amount": 250,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add the grated Cheddar and mix 30 sec / speed 3.",
+      "actions": [
+        {
+          "match": "30 sec / speed 3",
+          "time": 30,
+          "speed": "3"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "grated Cheddar",
+          "ingredientIndex": 5
+        }
+      ]
+    },
+    {
+      "text": "Add the cooked macaroni and mix 20 sec / reverse / speed 0.5. Leave to cool until comfortably warm before serving.",
+      "actions": [
+        {
+          "match": "20 sec / reverse / speed 0.5",
+          "time": 20,
+          "speed": "0.5",
+          "direction": "CCW"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "cooked macaroni",
+          "ingredientIndex": 0
+        }
+      ]
+    }
+  ]
+}
