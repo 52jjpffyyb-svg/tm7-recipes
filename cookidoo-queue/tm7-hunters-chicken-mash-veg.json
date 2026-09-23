@@ -1,0 +1,339 @@
+{
+  "name": "TM7 Hunters Chicken with Creamy Mash, Carrots & Broccoli",
+  "yield": {
+    "value": 4,
+    "unitText": "portion"
+  },
+  "prepTime": 1200,
+  "totalTime": 4500,
+  "ingredients": [
+    "150 g mature Cheddar, cut into 2-3 cm chunks",
+    "1 onion, quartered",
+    "2 garlic cloves",
+    "10 g olive oil",
+    "400 g tinned chopped tomatoes",
+    "50 g tomato ketchup",
+    "30 g soft brown sugar",
+    "20 g Worcestershire sauce",
+    "15 g apple cider vinegar",
+    "1 tbsp smoked paprika",
+    "1 tsp mustard",
+    "1/2 tsp garlic granules",
+    "1/2 tsp onion granules",
+    "1 tsp fine salt, divided",
+    "black pepper, to taste",
+    "1/4 tsp MSG, optional",
+    "4 chicken breasts",
+    "8 rashers smoked streaky bacon",
+    "1000 g water",
+    "900 g floury potatoes, peeled and cut into 3 cm chunks",
+    "300 g carrots, sliced about 5 mm thick",
+    "300 g broccoli florets",
+    "50 g butter",
+    "80 g whole milk",
+    "50 g double cream"
+  ],
+  "steps": [
+    {
+      "text": "Put 150 g mature Cheddar into the mixing bowl and grate 5 sec / speed 7. Transfer to a bowl and set aside for topping the chicken.",
+      "actions": [
+        {
+          "match": "5 sec / speed 7",
+          "time": 5,
+          "speed": "7"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "150 g mature Cheddar",
+          "ingredientIndex": 0,
+          "amount": 150,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Put 1 quartered onion and 2 garlic cloves into the mixing bowl. Chop 5 sec / speed 5. Scrape down the sides of the bowl.",
+      "actions": [
+        {
+          "match": "5 sec / speed 5",
+          "time": 5,
+          "speed": "5"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "1 quartered onion",
+          "ingredientIndex": 1
+        },
+        {
+          "match": "2 garlic cloves",
+          "ingredientIndex": 2
+        }
+      ]
+    },
+    {
+      "text": "Add 10 g olive oil and sauté 5 min / 120°C / speed 1.",
+      "actions": [
+        {
+          "match": "5 min / 120°C / speed 1",
+          "time": 300,
+          "temperature": 120,
+          "speed": "1"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "10 g olive oil",
+          "ingredientIndex": 3,
+          "amount": 10,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 400 g chopped tomatoes, 50 g tomato ketchup, 30 g soft brown sugar, 20 g Worcestershire sauce, 15 g apple cider vinegar, 1 tbsp smoked paprika, 1 tsp mustard, 1/2 tsp garlic granules, 1/2 tsp onion granules, 1/2 tsp fine salt, black pepper to taste and 1/4 tsp MSG if using. Cook 15 min / 100°C / speed 2.",
+      "actions": [
+        {
+          "match": "15 min / 100°C / speed 2",
+          "time": 900,
+          "temperature": 100,
+          "speed": "2"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "400 g chopped tomatoes",
+          "ingredientIndex": 4,
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "match": "50 g tomato ketchup",
+          "ingredientIndex": 5,
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "match": "30 g soft brown sugar",
+          "ingredientIndex": 6,
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "match": "20 g Worcestershire sauce",
+          "ingredientIndex": 7,
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "match": "15 g apple cider vinegar",
+          "ingredientIndex": 8,
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "match": "1 tbsp smoked paprika",
+          "ingredientIndex": 9,
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "match": "1 tsp mustard",
+          "ingredientIndex": 10,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/2 tsp garlic granules",
+          "ingredientIndex": 11,
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/2 tsp onion granules",
+          "ingredientIndex": 12,
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/2 tsp fine salt",
+          "ingredientIndex": 13,
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "black pepper",
+          "ingredientIndex": 14
+        },
+        {
+          "match": "1/4 tsp MSG",
+          "ingredientIndex": 15,
+          "amount": 0.25,
+          "unit": "tsp"
+        }
+      ]
+    },
+    {
+      "text": "Blend the BBQ sauce 20 sec / speed 7.",
+      "actions": [
+        {
+          "match": "20 sec / speed 7",
+          "time": 20,
+          "speed": "7"
+        }
+      ]
+    },
+    {
+      "text": "Remove the measuring cup and place the simmering basket on the mixing bowl lid as a splash guard. Cook 5 min / 120°C / speed 2 to thicken the BBQ sauce. Transfer the sauce to a jug and set aside. Rinse the mixing bowl.",
+      "actions": [
+        {
+          "match": "5 min / 120°C / speed 2",
+          "time": 300,
+          "temperature": 120,
+          "speed": "2"
+        }
+      ]
+    },
+    {
+      "text": "Wrap each of the 4 chicken breasts with 2 rashers smoked streaky bacon and season with black pepper. Set aside while the potatoes begin steaming.",
+      "ingredientLinks": [
+        {
+          "match": "4 chicken breasts",
+          "ingredientIndex": 16
+        },
+        {
+          "match": "2 rashers smoked streaky bacon",
+          "ingredientIndex": 17
+        },
+        {
+          "match": "black pepper",
+          "ingredientIndex": 14
+        }
+      ]
+    },
+    {
+      "text": "Put 1000 g water into the mixing bowl. Put 900 g potatoes into the Varoma dish, spreading them out so some steam slots remain clear. Fit the Varoma lid and cook using Steaming mode / 12 min.",
+      "ingredientLinks": [
+        {
+          "match": "1000 g water",
+          "ingredientIndex": 18,
+          "amount": 1000,
+          "unit": "g"
+        },
+        {
+          "match": "900 g potatoes",
+          "ingredientIndex": 19,
+          "amount": 900,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 300 g sliced carrots to the Varoma tray and insert the tray above the potatoes. Replace the lid. At the same time, put the bacon-wrapped chicken into the air fryer and cook at 180°C for 12 minutes. Immediately continue steaming the potatoes and carrots using Steaming mode / 12 min.",
+      "ingredientLinks": [
+        {
+          "match": "300 g sliced carrots",
+          "ingredientIndex": 20,
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "match": "bacon-wrapped chicken",
+          "ingredientIndex": 16
+        }
+      ]
+    },
+    {
+      "text": "When both timers finish, add 300 g broccoli florets to the Varoma tray with the carrots. Spoon a generous layer of the BBQ sauce over each chicken breast, reserving any extra sauce for serving, then top the chicken evenly with the 150 g grated Cheddar. Return the chicken to the air fryer at 180°C for 12 minutes. At the same time, continue steaming the potatoes, carrots and broccoli using Steaming mode / 12 min.",
+      "ingredientLinks": [
+        {
+          "match": "300 g broccoli florets",
+          "ingredientIndex": 21,
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "match": "BBQ sauce",
+          "ingredientIndex": 4
+        },
+        {
+          "match": "150 g grated Cheddar",
+          "ingredientIndex": 0,
+          "amount": 150,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Check the thickest part of each chicken breast has reached at least 75°C. If needed, air fry for a further 2-4 minutes. Remove the Varoma and keep the carrots and broccoli covered and warm. Transfer the steamed potatoes to a bowl and leave them uncovered for 2 minutes to steam-dry. Empty and dry the mixing bowl."
+    },
+    {
+      "text": "Put 50 g butter, 80 g whole milk and 50 g double cream into the mixing bowl. Heat 2 min / 80°C / speed 2.",
+      "actions": [
+        {
+          "match": "2 min / 80°C / speed 2",
+          "time": 120,
+          "temperature": 80,
+          "speed": "2"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "50 g butter",
+          "ingredientIndex": 22,
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "match": "80 g whole milk",
+          "ingredientIndex": 23,
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "match": "50 g double cream",
+          "ingredientIndex": 24,
+          "amount": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add the 900 g steamed potatoes, the remaining 1/2 tsp fine salt and black pepper to taste. Mash 20 sec / speed 3.5. Scrape down and, only if needed, mix for a further 10 sec / speed 3. Do not overmix.",
+      "actions": [
+        {
+          "match": "20 sec / speed 3.5",
+          "time": 20,
+          "speed": "3.5"
+        },
+        {
+          "match": "10 sec / speed 3",
+          "time": 10,
+          "speed": "3"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "900 g steamed potatoes",
+          "ingredientIndex": 19,
+          "amount": 900,
+          "unit": "g"
+        },
+        {
+          "match": "1/2 tsp fine salt",
+          "ingredientIndex": 13,
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "black pepper",
+          "ingredientIndex": 14
+        }
+      ]
+    },
+    {
+      "text": "Serve the Hunters Chicken with the creamy mash, steamed carrots and broccoli. Spoon the reserved BBQ sauce over the mash if you like."
+    }
+  ]
+}
