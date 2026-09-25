@@ -1,0 +1,283 @@
+{
+  "name": "TM7 Garlic & Parmesan Chicken with Veg & Cauliflower Mash",
+  "yield": {
+    "value": 3,
+    "unitText": "portion"
+  },
+  "prepTime": 900,
+  "totalTime": 3000,
+  "ingredients": [
+    "750 g chicken breast, cut into 3 cm chunks",
+    "10 g olive oil",
+    "2 tsp smoked paprika",
+    "1 tsp garlic granules",
+    "1 tsp onion granules",
+    "1/2 tsp dried oregano",
+    "1/2 tsp fine salt",
+    "black pepper, to taste",
+    "700 g water",
+    "700 g cauliflower florets",
+    "1 courgette, cut into chunky pieces",
+    "1 red pepper, sliced",
+    "1 yellow pepper, sliced",
+    "200 g mushrooms, halved",
+    "200 g broccoli florets",
+    "150 g green beans, trimmed",
+    "1 red onion, cut into wedges",
+    "20 g butter",
+    "30 g Parmesan, finely grated",
+    "3 garlic cloves",
+    "100 g chicken stock",
+    "150 g reduced-fat crème fraîche",
+    "40 g Parmesan, finely grated",
+    "1 tsp Dijon mustard",
+    "1/2 tsp smoked paprika",
+    "10 g lemon juice"
+  ],
+  "steps": [
+    {
+      "text": "Put 750 g chicken breast into a large bowl. Add 10 g olive oil, 2 tsp smoked paprika, 1 tsp garlic granules, 1 tsp onion granules, 1/2 tsp dried oregano, 1/2 tsp fine salt and black pepper to taste. Mix well so the chicken is evenly coated.",
+      "ingredientLinks": [
+        {
+          "match": "750 g chicken breast",
+          "ingredientIndex": 0,
+          "amount": 750,
+          "unit": "g"
+        },
+        {
+          "match": "10 g olive oil",
+          "ingredientIndex": 1,
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "match": "2 tsp smoked paprika",
+          "ingredientIndex": 2,
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "match": "1 tsp garlic granules",
+          "ingredientIndex": 3,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1 tsp onion granules",
+          "ingredientIndex": 4,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/2 tsp dried oregano",
+          "ingredientIndex": 5,
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/2 tsp fine salt",
+          "ingredientIndex": 6,
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "black pepper",
+          "ingredientIndex": 7
+        }
+      ]
+    },
+    {
+      "text": "Preheat the air fryer to 190°C if required. Add the seasoned chicken and air fry at 190°C for 14-18 minutes, shaking or turning halfway through, until browned and the thickest pieces reach at least 75°C.",
+      "ingredientLinks": [
+        {
+          "match": "seasoned chicken",
+          "ingredientIndex": 0
+        }
+      ]
+    },
+    {
+      "text": "Put 700 g water into the mixing bowl. Put 700 g cauliflower florets into the Varoma dish, spreading them out and keeping some steam slots clear. Fit the Varoma lid and cook using Steaming mode / 10 min.",
+      "ingredientLinks": [
+        {
+          "match": "700 g water",
+          "ingredientIndex": 8,
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "match": "700 g cauliflower florets",
+          "ingredientIndex": 9,
+          "amount": 700,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Put 1 chopped courgette, 1 sliced red pepper, 1 sliced yellow pepper, 200 g mushrooms, 200 g broccoli florets, 150 g green beans and 1 red onion into the Varoma tray. Insert the tray above the cauliflower, replace the lid and continue using Steaming mode / 12-15 min, until the cauliflower is very tender and the vegetables are cooked but still have some bite.",
+      "ingredientLinks": [
+        {
+          "match": "1 chopped courgette",
+          "ingredientIndex": 10
+        },
+        {
+          "match": "1 sliced red pepper",
+          "ingredientIndex": 11
+        },
+        {
+          "match": "1 sliced yellow pepper",
+          "ingredientIndex": 12
+        },
+        {
+          "match": "200 g mushrooms",
+          "ingredientIndex": 13,
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "match": "200 g broccoli florets",
+          "ingredientIndex": 14,
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "match": "150 g green beans",
+          "ingredientIndex": 15,
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "match": "1 red onion",
+          "ingredientIndex": 16
+        }
+      ]
+    },
+    {
+      "text": "Remove the Varoma and keep the vegetables covered and warm. Empty the water from the mixing bowl. Add the steamed cauliflower, 20 g butter, 30 g Parmesan, a pinch of salt and black pepper. Blend 20 sec / speed 5. Scrape down the sides of the bowl.",
+      "actions": [
+        {
+          "match": "20 sec / speed 5",
+          "time": 20,
+          "speed": "5"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "steamed cauliflower",
+          "ingredientIndex": 9,
+          "amount": 700,
+          "unit": "g"
+        },
+        {
+          "match": "20 g butter",
+          "ingredientIndex": 17,
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "match": "30 g Parmesan",
+          "ingredientIndex": 18,
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "match": "black pepper",
+          "ingredientIndex": 7
+        }
+      ]
+    },
+    {
+      "text": "Blend the cauliflower mash again 20 sec / speed 6. Transfer to a serving bowl and keep warm. Rinse and dry the mixing bowl.",
+      "actions": [
+        {
+          "match": "20 sec / speed 6",
+          "time": 20,
+          "speed": "6"
+        }
+      ]
+    },
+    {
+      "text": "Put 3 garlic cloves into the mixing bowl and chop 3 sec / speed 7. Scrape down the sides of the bowl.",
+      "actions": [
+        {
+          "match": "3 sec / speed 7",
+          "time": 3,
+          "speed": "7"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "3 garlic cloves",
+          "ingredientIndex": 19
+        }
+      ]
+    },
+    {
+      "text": "Add 100 g chicken stock, 150 g reduced-fat crème fraîche, 40 g Parmesan, 1 tsp Dijon mustard, 1/2 tsp smoked paprika and black pepper to taste. Cook 5 min / 90°C / speed 2.",
+      "actions": [
+        {
+          "match": "5 min / 90°C / speed 2",
+          "time": 300,
+          "temperature": 90,
+          "speed": "2"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "100 g chicken stock",
+          "ingredientIndex": 20,
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "match": "150 g reduced-fat crème fraîche",
+          "ingredientIndex": 21,
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "match": "40 g Parmesan",
+          "ingredientIndex": 22,
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "match": "1 tsp Dijon mustard",
+          "ingredientIndex": 23,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/2 tsp smoked paprika",
+          "ingredientIndex": 24,
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "black pepper",
+          "ingredientIndex": 7
+        }
+      ]
+    },
+    {
+      "text": "Add 10 g lemon juice and mix 10 sec / speed 3. Taste and adjust the seasoning if needed.",
+      "actions": [
+        {
+          "match": "10 sec / speed 3",
+          "time": 10,
+          "speed": "3"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "10 g lemon juice",
+          "ingredientIndex": 25,
+          "amount": 10,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Divide the cauliflower mash between 3 plates. Add plenty of the steamed vegetables and the air-fried chicken, then spoon the creamy garlic and Parmesan sauce over the top."
+    }
+  ]
+}
