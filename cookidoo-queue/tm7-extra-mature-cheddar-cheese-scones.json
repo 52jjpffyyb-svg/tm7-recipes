@@ -2,7 +2,7 @@
   "name": "TM7 Extra-Mature Cheddar Cheese Scones",
   "yield": {
     "value": 8,
-    "unitText": "scone"
+    "unitText": "portion"
   },
   "prepTime": 600,
   "totalTime": 1800,
@@ -153,5 +153,6 @@
     {
       "text": "Leave on the tray for 5 minutes, then transfer to a wire rack. Serve warm, ideally split and spread with salted butter."
     }
-  ]
+  ],
+  "recipeId": "01M3WFR177DY97PVEV275AWDYZ"
 }
