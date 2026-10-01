@@ -1,0 +1,157 @@
+{
+  "name": "TM7 Extra-Mature Cheddar Cheese Scones",
+  "yield": {
+    "value": 8,
+    "unitText": "scone"
+  },
+  "prepTime": 600,
+  "totalTime": 1800,
+  "ingredients": [
+    "125 g extra-mature Cheddar cheese, cut into 2-3 cm pieces",
+    "225 g self-raising flour",
+    "1 tsp baking powder",
+    "1 tsp English mustard powder",
+    "1/4 tsp fine sea salt",
+    "1/4 tsp freshly ground black pepper",
+    "1 pinch cayenne pepper, optional",
+    "50 g cold unsalted butter, cubed",
+    "130-150 g whole milk, cold, plus a little extra for brushing"
+  ],
+  "steps": [
+    {
+      "text": "Preheat the oven to 220°C conventional / 200°C fan. Line a baking tray with baking paper."
+    },
+    {
+      "text": "Put 125 g extra-mature Cheddar into the mixing bowl and grate 5 sec / speed 7. Transfer about 25 g of the grated Cheddar to a small bowl and set aside for topping, leaving the remaining cheese in the mixing bowl.",
+      "actions": [
+        {
+          "match": "5 sec / speed 7",
+          "time": 5,
+          "speed": "7"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "125 g extra-mature Cheddar",
+          "ingredientIndex": 0,
+          "amount": 125,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 225 g self-raising flour, 1 tsp baking powder, 1 tsp English mustard powder, 1/4 tsp fine sea salt, 1/4 tsp freshly ground black pepper, 1 pinch cayenne pepper and 50 g cold unsalted butter. Mix 8 sec / speed 6. The mixture should resemble coarse breadcrumbs with the cheese evenly distributed.",
+      "actions": [
+        {
+          "match": "8 sec / speed 6",
+          "time": 8,
+          "speed": "6"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "225 g self-raising flour",
+          "ingredientIndex": 1,
+          "amount": 225,
+          "unit": "g"
+        },
+        {
+          "match": "1 tsp baking powder",
+          "ingredientIndex": 2,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1 tsp English mustard powder",
+          "ingredientIndex": 3,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/4 tsp fine sea salt",
+          "ingredientIndex": 4,
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/4 tsp freshly ground black pepper",
+          "ingredientIndex": 5,
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "match": "1 pinch cayenne pepper",
+          "ingredientIndex": 6
+        },
+        {
+          "match": "50 g cold unsalted butter",
+          "ingredientIndex": 7,
+          "amount": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 130 g cold whole milk and mix 8 sec / speed 4. Check the dough: it should be soft and slightly tacky, not dry. If there are dry patches, add 10 g more milk and mix 3 sec / speed 4. Add a final 10 g milk only if still needed and mix 3 sec / speed 4. Do not overmix.",
+      "actions": [
+        {
+          "match": "8 sec / speed 4",
+          "time": 8,
+          "speed": "4"
+        },
+        {
+          "match": "3 sec / speed 4",
+          "time": 3,
+          "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "130 g cold whole milk",
+          "ingredientIndex": 8,
+          "amount": 130,
+          "unit": "g"
+        },
+        {
+          "match": "10 g more milk",
+          "ingredientIndex": 8,
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "match": "10 g milk",
+          "ingredientIndex": 8,
+          "amount": 10,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Turn the dough onto a very lightly floured work surface. Bring it together gently with your hands without kneading. Pat out to 2.5-3 cm thick."
+    },
+    {
+      "text": "Cut out 8 scones with a 6 cm round cutter, pressing straight down without twisting. Gently bring the scraps together and cut the remaining scones. Arrange on the prepared baking tray with about 1-2 cm between them."
+    },
+    {
+      "text": "Lightly brush only the tops of the scones with a little milk, taking care not to let it run down the sides. Sprinkle with the reserved 25 g grated Cheddar.",
+      "ingredientLinks": [
+        {
+          "match": "milk",
+          "ingredientIndex": 8
+        },
+        {
+          "match": "25 g grated Cheddar",
+          "ingredientIndex": 0,
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Bake at 200°C fan for 12-15 minutes, until well risen, deeply golden and the Cheddar topping is bubbling."
+    },
+    {
+      "text": "Leave on the tray for 5 minutes, then transfer to a wire rack. Serve warm, ideally split and spread with salted butter."
+    }
+  ]
+}
