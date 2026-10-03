@@ -1,0 +1,148 @@
+{
+  "name": "TM7 Buttery Fruit Scones",
+  "yield": {
+    "value": 10,
+    "unitText": "portion"
+  },
+  "prepTime": 900,
+  "totalTime": 1800,
+  "ingredients": [
+    "450 g self-raising flour",
+    "2 tsp baking powder",
+    "1/2 tsp fine salt",
+    "100 g cold unsalted butter, cubed",
+    "60 g caster sugar",
+    "150 g sultanas or mixed dried fruit",
+    "2 large eggs",
+    "150 g whole milk, cold, plus a little extra for brushing",
+    "1 tsp vanilla extract"
+  ],
+  "steps": [
+    {
+      "text": "Preheat the oven to 220°C conventional / 200°C fan. Line a baking tray with baking paper."
+    },
+    {
+      "text": "Add 450 g self-raising flour, 2 tsp baking powder, 1/2 tsp fine salt and 100 g cold unsalted butter to the mixing bowl. Mix 10 sec / speed 6, until the mixture resembles fine breadcrumbs.",
+      "actions": [
+        {
+          "match": "10 sec / speed 6",
+          "time": 10,
+          "speed": "6"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "450 g self-raising flour",
+          "ingredientIndex": 0,
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "match": "2 tsp baking powder",
+          "ingredientIndex": 1,
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "match": "1/2 tsp fine salt",
+          "ingredientIndex": 2,
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "100 g cold unsalted butter",
+          "ingredientIndex": 3,
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 60 g caster sugar and mix 5 sec / speed 4.",
+      "actions": [
+        {
+          "match": "5 sec / speed 4",
+          "time": 5,
+          "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "60 g caster sugar",
+          "ingredientIndex": 4,
+          "amount": 60,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 150 g sultanas or mixed dried fruit and mix 5 sec / reverse / speed 2.5.",
+      "actions": [
+        {
+          "match": "5 sec / reverse / speed 2.5",
+          "time": 5,
+          "speed": "2.5",
+          "direction": "CCW"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "150 g sultanas or mixed dried fruit",
+          "ingredientIndex": 5,
+          "amount": 150,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 2 large eggs, 150 g cold whole milk and 1 tsp vanilla extract. Mix 10 sec / reverse / speed 4. Then use Dough mode / 20 sec. The dough should be soft and slightly tacky. Do not overwork it.",
+      "actions": [
+        {
+          "match": "10 sec / reverse / speed 4",
+          "time": 10,
+          "speed": "4",
+          "direction": "CCW"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "2 large eggs",
+          "ingredientIndex": 6
+        },
+        {
+          "match": "150 g cold whole milk",
+          "ingredientIndex": 7,
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "match": "1 tsp vanilla extract",
+          "ingredientIndex": 8,
+          "amount": 1,
+          "unit": "tsp"
+        }
+      ]
+    },
+    {
+      "text": "Turn the dough onto a lightly floured work surface. Bring it together gently with your hands without kneading. Pat out to about 3-3.5 cm thick."
+    },
+    {
+      "text": "Cut out 8-10 scones with a 6-7 cm round cutter, pressing straight down without twisting. Gently bring the scraps together and cut the remaining scones. Arrange on the prepared tray reasonably close together."
+    },
+    {
+      "text": "Lightly brush only the tops with a little extra milk, taking care not to let it run down the sides.",
+      "ingredientLinks": [
+        {
+          "match": "milk",
+          "ingredientIndex": 7
+        }
+      ]
+    },
+    {
+      "text": "Bake at 200°C fan for 12-15 minutes, until well risen and golden brown on top with lightly golden bases."
+    },
+    {
+      "text": "Transfer to a wire rack. Serve slightly warm with salted butter, or with strawberry jam and clotted cream."
+    }
+  ]
+}
