@@ -1,0 +1,202 @@
+{
+  "name": "TM7 Brown Butter Chocolate Chip Cookies",
+  "yield": {
+    "value": 28,
+    "unitText": "portion"
+  },
+  "prepTime": 900,
+  "totalTime": 10800,
+  "ingredients": [
+    "Brown butter, cooled and solidified (made from 226 g unsalted butter; use all of it, including the browned milk solids)",
+    "200 g soft dark brown sugar",
+    "100 g caster sugar",
+    "1 large egg",
+    "1 large egg yolk",
+    "10 g vanilla extract",
+    "313 g plain flour",
+    "5 g cornflour",
+    "5 g bicarbonate of soda",
+    "3 g fine sea salt",
+    "30 g whole milk, room temperature",
+    "200 g chocolate chips",
+    "Flaky sea salt, optional"
+  ],
+  "steps": [
+    {
+      "text": "If needed, chill the browned butter until solidified but still soft enough to cream. Use all of the browned butter, including the browned milk solids."
+    },
+    {
+      "text": "Add all of the cooled, solidified brown butter to the mixing bowl. Mix 1 min / speed 4. Scrape down the sides and base of the bowl, then mix again 1 min / speed 4 until creamy.",
+      "actions": [
+        {
+          "match": "1 min / speed 4",
+          "time": 60,
+          "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "brown butter",
+          "ingredientIndex": 0
+        }
+      ]
+    },
+    {
+      "text": "Add 200 g soft dark brown sugar and 100 g caster sugar. Mix 1 min 30 sec / speed 4. Scrape down if needed.",
+      "actions": [
+        {
+          "match": "1 min 30 sec / speed 4",
+          "time": 90,
+          "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "200 g soft dark brown sugar",
+          "ingredientIndex": 1,
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "match": "100 g caster sugar",
+          "ingredientIndex": 2,
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 1 large egg, 1 large egg yolk and 10 g vanilla extract. Mix 30 sec / speed 4. Scrape down the bowl, then mix 15 sec / speed 4.",
+      "actions": [
+        {
+          "match": "30 sec / speed 4",
+          "time": 30,
+          "speed": "4"
+        },
+        {
+          "match": "15 sec / speed 4",
+          "time": 15,
+          "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "1 large egg",
+          "ingredientIndex": 3
+        },
+        {
+          "match": "1 large egg yolk",
+          "ingredientIndex": 4
+        },
+        {
+          "match": "10 g vanilla extract",
+          "ingredientIndex": 5,
+          "amount": 10,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 313 g plain flour, 5 g cornflour, 5 g bicarbonate of soda and 3 g fine sea salt. Mix 20 sec / speed 4. Scrape right down to the base of the bowl, then mix 10 sec / speed 4, stopping as soon as no obvious dry flour remains.",
+      "actions": [
+        {
+          "match": "20 sec / speed 4",
+          "time": 20,
+          "speed": "4"
+        },
+        {
+          "match": "10 sec / speed 4",
+          "time": 10,
+          "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "313 g plain flour",
+          "ingredientIndex": 6,
+          "amount": 313,
+          "unit": "g"
+        },
+        {
+          "match": "5 g cornflour",
+          "ingredientIndex": 7,
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "match": "5 g bicarbonate of soda",
+          "ingredientIndex": 8,
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "match": "3 g fine sea salt",
+          "ingredientIndex": 9,
+          "amount": 3,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 30 g room-temperature whole milk and mix 10 sec / speed 3.5.",
+      "actions": [
+        {
+          "match": "10 sec / speed 3.5",
+          "time": 10,
+          "speed": "3.5"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "30 g room-temperature whole milk",
+          "ingredientIndex": 10,
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 200 g chocolate chips and mix 15 sec / reverse / speed 2.5. If needed, finish folding the last few chips through with the spatula rather than overmixing.",
+      "actions": [
+        {
+          "match": "15 sec / reverse / speed 2.5",
+          "time": 15,
+          "speed": "2.5",
+          "direction": "CCW"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "200 g chocolate chips",
+          "ingredientIndex": 11,
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Divide the dough into approximately 45 g portions. Shape each portion slightly tall rather than perfectly round and place on a lined tray."
+    },
+    {
+      "text": "Cover and refrigerate the shaped cookie dough for at least 2 hours, or up to 3 days."
+    },
+    {
+      "text": "When ready to bake, preheat the oven to 190°C conventional / 170°C fan. Line baking trays with baking paper."
+    },
+    {
+      "text": "Arrange about 8 chilled cookies per tray, leaving plenty of space between them. Sprinkle with flaky sea salt if using.",
+      "ingredientLinks": [
+        {
+          "match": "flaky sea salt",
+          "ingredientIndex": 12
+        }
+      ]
+    },
+    {
+      "text": "Bake for 12-14 minutes, until the edges are lightly golden but the centres still look soft and slightly underdone."
+    },
+    {
+      "text": "Leave the cookies on the hot baking tray for 5 minutes, then transfer to a wire rack to cool."
+    }
+  ]
+}
