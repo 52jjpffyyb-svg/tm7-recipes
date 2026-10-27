@@ -1,0 +1,92 @@
+{
+  "name": "TM7 Josh's Fluffy Toad in the Hole",
+  "yield": {
+    "value": 4,
+    "unitText": "portion"
+  },
+  "prepTime": 900,
+  "totalTime": 4200,
+  "ingredients": [
+    "180 g plain flour",
+    "6 large eggs",
+    "150 g whole milk",
+    "3/4 tsp English mustard powder",
+    "12 large pork sausages (approx. 800-900 g)",
+    "2 tbsp vegetable oil or goose fat"
+  ],
+  "steps": [
+    {
+      "text": "Preheat the oven to 220°C conventional / 200°C fan (gas 7). Have a large metal roasting tin, approximately 30 x 25 cm, ready."
+    },
+    {
+      "text": "Put 180 g plain flour, 6 large eggs, 150 g whole milk and 3/4 tsp English mustard powder into the mixing bowl. Mix 30 sec / speed 4.",
+      "actions": [
+        {
+          "match": "30 sec / speed 4",
+          "time": 30,
+          "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "180 g plain flour",
+          "ingredientIndex": 0,
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "match": "6 large eggs",
+          "ingredientIndex": 1,
+          "amount": 6
+        },
+        {
+          "match": "150 g whole milk",
+          "ingredientIndex": 2,
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "match": "3/4 tsp English mustard powder",
+          "ingredientIndex": 3,
+          "amount": 0.75,
+          "unit": "tsp"
+        }
+      ]
+    },
+    {
+      "text": "Scrape down the mixing bowl. If any lumps remain, mix for a further 10 sec / speed 4. Pour the smooth batter into a jug and rest at room temperature for 20-30 minutes.",
+      "actions": [
+        {
+          "match": "10 sec / speed 4",
+          "time": 10,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Put 12 large pork sausages and 2 tbsp vegetable oil or goose fat into the metal roasting tin. Roast for 15-20 minutes, turning once, until the sausages are beginning to brown and the fat is very hot.",
+      "ingredientLinks": [
+        {
+          "match": "12 large pork sausages",
+          "ingredientIndex": 4,
+          "amount": 12
+        },
+        {
+          "match": "2 tbsp vegetable oil or goose fat",
+          "ingredientIndex": 5,
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ]
+    },
+    {
+      "text": "Carefully remove the hot roasting tin from the oven. Quickly pour the rested Yorkshire pudding batter around and between the sausages; it should sizzle as it hits the fat. Return the tin immediately to the oven."
+    },
+    {
+      "text": "Bake at 220°C conventional / 200°C fan for 30-35 minutes until the batter is very well risen, golden, and fully set in the centre. Keep the oven door closed for at least the first 25 minutes. Check that the sausages are completely cooked through."
+    },
+    {
+      "text": "Serve straight away with onion gravy and vegetables. The pudding is intentionally soft and fluffy inside, following Josh's own Yorkshire pudding ratio. For a baby already eating solids, offer only a small, cooled portion if egg, milk, wheat and mustard have been introduced and tolerated; avoid salty sausages and gravy."
+    }
+  ]
+}
