@@ -1,0 +1,150 @@
+{
+  "name": "TM7 Korean Pulled Beef Noodles (10-Hour Slow Cook)",
+  "yield": {
+    "value": 4,
+    "unitText": "portion"
+  },
+  "prepTime": 900,
+  "totalTime": 37800,
+  "ingredients": [
+    "750 g beef cheek, trimmed and cut into large chunks",
+    "150 g onion, quartered",
+    "30 g garlic and ginger paste",
+    "35 g tomato purée",
+    "45 g dark soy sauce",
+    "45 g rice vinegar",
+    "30 g soft brown sugar",
+    "30 g gochujang paste (mild-medium spice)",
+    "250 g prepared beef stock",
+    "600-800 g ready-to-wok udon noodles (3-4 pouches)",
+    "15 g fresh coriander, chopped",
+    "10 g black sesame seeds",
+    "5 g sesame oil, optional"
+  ],
+  "steps": [
+    {
+      "text": "At 7:00am, put 150 g quartered onion into the TM7 mixing bowl. Chop 5 sec / speed 5, then scrape down the sides.",
+      "actions": [
+        {
+          "match": "5 sec / speed 5",
+          "time": 5,
+          "speed": "5"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "150 g quartered onion",
+          "ingredientIndex": 1,
+          "amount": 150,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 30 g garlic and ginger paste, 35 g tomato purée, 45 g dark soy sauce, 45 g rice vinegar, 30 g soft brown sugar, 30 g gochujang paste and 250 g prepared beef stock. Mix 10 sec / speed 3.",
+      "actions": [
+        {
+          "match": "10 sec / speed 3",
+          "time": 10,
+          "speed": "3"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "30 g garlic and ginger paste",
+          "ingredientIndex": 2,
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "match": "35 g tomato purée",
+          "ingredientIndex": 3,
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "match": "45 g dark soy sauce",
+          "ingredientIndex": 4,
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "match": "45 g rice vinegar",
+          "ingredientIndex": 5,
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "match": "30 g soft brown sugar",
+          "ingredientIndex": 6,
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "match": "30 g gochujang paste",
+          "ingredientIndex": 7,
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "match": "250 g prepared beef stock",
+          "ingredientIndex": 8,
+          "amount": 250,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Transfer the sauce temporarily to a jug. If using a TM7-compatible blade cover, fit it according to its instructions, then return the sauce. Add 750 g beef cheek in 2-3 large pieces and coat in sauce. Do not exceed the mixing bowl's maximum fill level.",
+      "ingredientLinks": [
+        {
+          "match": "750 g beef cheek",
+          "ingredientIndex": 0,
+          "amount": 750,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "At approximately 7:10am select Slow Cook mode for 8 hours at 90°C. Follow the manufacturer's operating and supervision instructions; do not leave the TM7 running unattended."
+    },
+    {
+      "text": "At approximately 3:10pm, check the beef. If fork-tender, start a second Slow Cook cycle for 1 hour 50 minutes at 75°C to keep it hot until 5:00pm. If still tough, use 90°C instead until it pulls apart easily. Add a little hot stock if the sauce becomes too thick."
+    },
+    {
+      "text": "At approximately 5:00pm, remove the beef carefully and shred with two forks. Return to the sauce and mix gently by hand. Taste and adjust the seasoning; for small children check spice level before serving."
+    },
+    {
+      "text": "Separately heat 600-800 g ready-to-wok udon noodles according to the packet directions until piping hot. Combine noodles and shredded beef in a large serving bowl.",
+      "ingredientLinks": [
+        {
+          "match": "600-800 g ready-to-wok udon noodles",
+          "ingredientIndex": 9
+        }
+      ]
+    },
+    {
+      "text": "Finish with 15 g chopped coriander, 10 g black sesame seeds and 5 g sesame oil if using. Serve at 5:15pm.",
+      "ingredientLinks": [
+        {
+          "match": "15 g chopped coriander",
+          "ingredientIndex": 10,
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "match": "10 g black sesame seeds",
+          "ingredientIndex": 11,
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "match": "5 g sesame oil",
+          "ingredientIndex": 12,
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    }
+  ]
+}
