@@ -1,0 +1,222 @@
+{
+  "name": "TM7 Lamb Meatball, Fresh Red Pepper & Feta Rigatoni Bake",
+  "yield": {
+    "value": 4,
+    "unitText": "portion"
+  },
+  "prepTime": 1500,
+  "totalTime": 5100,
+  "ingredients": [
+    "800 g lamb mince (10-15% fat)",
+    "110 g fresh white breadcrumbs for meatballs",
+    "2 egg yolks",
+    "1/2 tsp dried chilli flakes",
+    "4 g salt, plus extra for pasta water",
+    "1 g ground black pepper, plus extra to taste",
+    "180 g onion, quartered",
+    "15 g garlic cloves",
+    "30 g olive oil, divided",
+    "450 g fresh red peppers (around 3 large), deseeded and chopped",
+    "1200 g chopped tomatoes (3 x 400 g tins)",
+    "60 g double cream",
+    "500 g dried rigatoni",
+    "250 g feta, crumbled",
+    "50 g fresh breadcrumbs for topping",
+    "15 g fresh basil leaves",
+    "Up to 150 g reserved pasta cooking water"
+  ],
+  "steps": [
+    {
+      "text": "Combine 800 g lamb mince, 110 g breadcrumbs, 2 egg yolks, 1/2 tsp chilli flakes, 4 g salt and 1 g pepper in a large bowl. Mix gently and shape into 16 meatballs.",
+      "ingredientLinks": [
+        {
+          "match": "800 g lamb mince",
+          "ingredientIndex": 0,
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "match": "110 g breadcrumbs",
+          "ingredientIndex": 1,
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "match": "2 egg yolks",
+          "ingredientIndex": 2
+        },
+        {
+          "match": "1/2 tsp chilli flakes",
+          "ingredientIndex": 3
+        },
+        {
+          "match": "4 g salt",
+          "ingredientIndex": 4,
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "match": "1 g pepper",
+          "ingredientIndex": 5,
+          "amount": 1,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Preheat air fryer to 200°C. Toss 450 g deseeded fresh red peppers with 10 g olive oil. Air fry 15-18 minutes at 200°C, shaking halfway, until soft and lightly charred. Set aside.",
+      "ingredientLinks": [
+        {
+          "match": "450 g deseeded fresh red peppers",
+          "ingredientIndex": 9,
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "match": "10 g olive oil",
+          "ingredientIndex": 8,
+          "amount": 10,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Set air fryer to 190°C. Cook meatballs in a single layer in batches if needed for 10-12 minutes, turning halfway, until browned. They will finish cooking in the oven."
+    },
+    {
+      "text": "Place 180 g onion and 15 g garlic in TM7 mixing bowl. Chop 5 sec / speed 5. Scrape down.",
+      "actions": [
+        {
+          "match": "5 sec / speed 5",
+          "time": 5,
+          "speed": "5"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "180 g onion",
+          "ingredientIndex": 6,
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "match": "15 g garlic",
+          "ingredientIndex": 7,
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add the remaining 20 g olive oil. Cook 6 min / 120°C / speed 1.",
+      "actions": [
+        {
+          "match": "6 min / 120°C / speed 1",
+          "time": 360,
+          "temperature": 120,
+          "speed": "1"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "20 g olive oil",
+          "ingredientIndex": 8,
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 450 g air-fried fresh red peppers and 1200 g chopped tomatoes. Ensure ingredients are below the maximum fill mark. Cook 15 min / 100°C / speed 1.",
+      "actions": [
+        {
+          "match": "15 min / 100°C / speed 1",
+          "time": 900,
+          "temperature": 100,
+          "speed": "1"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "450 g air-fried fresh red peppers",
+          "ingredientIndex": 9,
+          "amount": 450,
+          "unit": "g"
+        },
+        {
+          "match": "1200 g chopped tomatoes",
+          "ingredientIndex": 10,
+          "amount": 1200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Carefully blend the hot sauce, gradually increasing speed from 5 to 6 over 30 seconds, following TM7 safety instructions."
+    },
+    {
+      "text": "Add 60 g double cream and season to taste. Cook 2 min / 90°C / speed 2.",
+      "actions": [
+        {
+          "match": "2 min / 90°C / speed 2",
+          "time": 120,
+          "temperature": 90,
+          "speed": "2"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "60 g double cream",
+          "ingredientIndex": 11,
+          "amount": 60,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Meanwhile, boil 500 g rigatoni in salted water for 2 minutes less than the packet cooking time. Reserve up to 150 g cooking water and drain.",
+      "ingredientLinks": [
+        {
+          "match": "500 g rigatoni",
+          "ingredientIndex": 12,
+          "amount": 500,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Heat oven to 200°C fan. Toss pasta with the fresh pepper tomato sauce and 125 g crumbled feta in a large baking dish. Nestle in meatballs, then scatter over remaining 125 g feta and 50 g fresh breadcrumbs. Add a little reserved pasta water if needed.",
+      "ingredientLinks": [
+        {
+          "match": "125 g crumbled feta",
+          "ingredientIndex": 13,
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "match": "remaining 125 g feta",
+          "ingredientIndex": 13,
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "match": "50 g fresh breadcrumbs",
+          "ingredientIndex": 14,
+          "amount": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Bake uncovered for 18-22 minutes at 200°C fan until bubbling, golden and meatballs reach 75°C in their centres. Rest 5 minutes and garnish with 15 g fresh basil.",
+      "ingredientLinks": [
+        {
+          "match": "15 g fresh basil",
+          "ingredientIndex": 15,
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ]
+}
