@@ -1,0 +1,183 @@
+{
+  "name": "TM7 Philly Cheesesteak Pasta",
+  "yield": {
+    "value": 4,
+    "unitText": "portion"
+  },
+  "prepTime": 900,
+  "totalTime": 2100,
+  "ingredients": [
+    "500 g sirloin or ribeye steak, thinly sliced into strips",
+    "400 g dried pappardelle or tagliatelle",
+    "25 g sunflower oil",
+    "3 g salt, plus extra for pasta water",
+    "2 g freshly ground black pepper",
+    "20 g salted butter",
+    "170 g onion, thickly sliced",
+    "150 g green pepper, sliced",
+    "12 g garlic (about 3 cloves)",
+    "300 g double cream",
+    "20 g Worcestershire sauce",
+    "125 g grated mozzarella",
+    "50-100 g reserved pasta cooking water, as needed"
+  ],
+  "steps": [
+    {
+      "text": "Put 12 g garlic into the TM7 mixing bowl and chop 3 sec / speed 7. Scrape down the sides and transfer the chopped garlic to a small bowl.",
+      "actions": [
+        {
+          "match": "3 sec / speed 7",
+          "time": 3,
+          "speed": "7"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "12 g garlic",
+          "ingredientIndex": 8,
+          "amount": 12,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 20 g salted butter, 170 g thickly sliced onion and 150 g sliced green pepper to the mixing bowl. Cook 6 min / 120°C / reverse / speed 1.",
+      "actions": [
+        {
+          "match": "6 min / 120°C / reverse / speed 1",
+          "time": 360,
+          "temperature": 120,
+          "speed": "1",
+          "direction": "CCW"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "20 g salted butter",
+          "ingredientIndex": 5,
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "match": "170 g thickly sliced onion",
+          "ingredientIndex": 6,
+          "amount": 170,
+          "unit": "g"
+        },
+        {
+          "match": "150 g sliced green pepper",
+          "ingredientIndex": 7,
+          "amount": 150,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add the reserved chopped garlic and cook 1 min / 120°C / reverse / speed 1.",
+      "actions": [
+        {
+          "match": "1 min / 120°C / reverse / speed 1",
+          "time": 60,
+          "temperature": 120,
+          "speed": "1",
+          "direction": "CCW"
+        }
+      ]
+    },
+    {
+      "text": "Meanwhile, boil 400 g dried pappardelle or tagliatelle in a large pan of salted water according to the packet until al dente. Before draining, reserve 100 g pasta cooking water.",
+      "ingredientLinks": [
+        {
+          "match": "400 g dried pappardelle or tagliatelle",
+          "ingredientIndex": 1,
+          "amount": 400,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "While the pasta cooks, heat 25 g sunflower oil in a large frying pan over a high heat. Season 500 g sliced steak with 3 g salt and 2 g black pepper. Sear in batches for approximately 3-4 minutes total, turning as needed, until browned but still tender. Transfer to a plate, reserving any juices.",
+      "ingredientLinks": [
+        {
+          "match": "25 g sunflower oil",
+          "ingredientIndex": 2,
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "match": "500 g sliced steak",
+          "ingredientIndex": 0,
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "match": "3 g salt",
+          "ingredientIndex": 3,
+          "amount": 3,
+          "unit": "g"
+        },
+        {
+          "match": "2 g black pepper",
+          "ingredientIndex": 4,
+          "amount": 2,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 300 g double cream and 20 g Worcestershire sauce to the softened vegetables in the TM7 mixing bowl. Cook 4 min / 90°C / reverse / speed 1.",
+      "actions": [
+        {
+          "match": "4 min / 90°C / reverse / speed 1",
+          "time": 240,
+          "temperature": 90,
+          "speed": "1",
+          "direction": "CCW"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "300 g double cream",
+          "ingredientIndex": 9,
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "match": "20 g Worcestershire sauce",
+          "ingredientIndex": 10,
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 125 g grated mozzarella. Cook 2 min / 80°C / reverse / speed 1, until the cheese has melted into the sauce.",
+      "actions": [
+        {
+          "match": "2 min / 80°C / reverse / speed 1",
+          "time": 120,
+          "temperature": 80,
+          "speed": "1",
+          "direction": "CCW"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "125 g grated mozzarella",
+          "ingredientIndex": 11,
+          "amount": 125,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Put the drained pasta and cooked steak, including its resting juices, in a large serving bowl or the frying pan. Pour over the TM7 cheese sauce and gently toss. Add 50-100 g reserved pasta cooking water a little at a time, just until silky and coating the pasta. Serve immediately.",
+      "ingredientLinks": [
+        {
+          "match": "50-100 g reserved pasta cooking water",
+          "ingredientIndex": 12
+        }
+      ]
+    }
+  ]
+}
