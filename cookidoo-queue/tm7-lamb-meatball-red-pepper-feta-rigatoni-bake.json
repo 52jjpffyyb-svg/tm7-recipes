@@ -1,0 +1,212 @@
+{
+  "name": "TM7 Lamb Meatball, Red Pepper & Feta Rigatoni Bake",
+  "yield": {
+    "value": 4,
+    "unitText": "portion"
+  },
+  "prepTime": 1500,
+  "totalTime": 4500,
+  "ingredients": [
+    "800 g lamb mince (10-15% fat)",
+    "110 g fresh white breadcrumbs, for meatballs",
+    "2 egg yolks",
+    "1/2 tsp dried chilli flakes",
+    "4 g salt, plus extra to taste and for pasta water",
+    "1 g ground black pepper, plus extra to taste",
+    "180 g onion, quartered",
+    "15 g garlic cloves",
+    "30 g olive oil",
+    "350 g jarred roasted red peppers, drained",
+    "1200 g chopped tomatoes (3 x 400 g tins)",
+    "60 g double cream",
+    "500 g dried rigatoni",
+    "250 g feta cheese, crumbled and divided into two 125 g portions",
+    "50 g fresh breadcrumbs, for topping",
+    "15 g fresh basil leaves",
+    "Up to 150 g reserved pasta cooking water, if needed"
+  ],
+  "steps": [
+    {
+      "text": "Put 800 g lamb mince, 110 g fresh white breadcrumbs, 2 egg yolks, 1/2 tsp chilli flakes, 4 g salt and 1 g black pepper into a large bowl. Mix gently by hand, then form 16 large meatballs (about 55-60 g each).",
+      "ingredientLinks": [
+        {
+          "match": "800 g lamb mince",
+          "ingredientIndex": 0,
+          "amount": 800,
+          "unit": "g"
+        },
+        {
+          "match": "110 g fresh white breadcrumbs",
+          "ingredientIndex": 1,
+          "amount": 110,
+          "unit": "g"
+        },
+        {
+          "match": "2 egg yolks",
+          "ingredientIndex": 2
+        },
+        {
+          "match": "1/2 tsp chilli flakes",
+          "ingredientIndex": 3
+        },
+        {
+          "match": "4 g salt",
+          "ingredientIndex": 4,
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "match": "1 g black pepper",
+          "ingredientIndex": 5,
+          "amount": 1,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Preheat the air fryer to 190°C. Arrange the meatballs in a single layer, working in batches if necessary. Air fry 10-12 minutes at 190°C, turning halfway, until browned on the outside. The meatballs will finish cooking in the oven."
+    },
+    {
+      "text": "Put 180 g quartered onion and 15 g garlic into the TM7 mixing bowl. Chop 5 sec / speed 5, then scrape down the sides.",
+      "actions": [
+        {
+          "match": "5 sec / speed 5",
+          "time": 5,
+          "speed": "5"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "180 g quartered onion",
+          "ingredientIndex": 6,
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "match": "15 g garlic",
+          "ingredientIndex": 7,
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 30 g olive oil and cook 6 min / 120°C / speed 1.",
+      "actions": [
+        {
+          "match": "6 min / 120°C / speed 1",
+          "time": 360,
+          "temperature": 120,
+          "speed": "1"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "30 g olive oil",
+          "ingredientIndex": 8,
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 350 g drained roasted red peppers and 1200 g chopped tomatoes (3 x 400 g tins). Make sure the ingredients remain below the maximum fill mark. Cook 15 min / 100°C / speed 1.",
+      "actions": [
+        {
+          "match": "15 min / 100°C / speed 1",
+          "time": 900,
+          "temperature": 100,
+          "speed": "1"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "350 g drained roasted red peppers",
+          "ingredientIndex": 9,
+          "amount": 350,
+          "unit": "g"
+        },
+        {
+          "match": "1200 g chopped tomatoes",
+          "ingredientIndex": 10,
+          "amount": 1200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Carefully blend the cooked tomato and pepper sauce, increasing speed gradually over 30 sec / speed 5-6, observing the TM7 instructions for blending hot liquids.",
+      "actions": []
+    },
+    {
+      "text": "Add 60 g double cream, taste and season with a little extra salt or black pepper if needed. Cook 2 min / 90°C / speed 2.",
+      "actions": [
+        {
+          "match": "2 min / 90°C / speed 2",
+          "time": 120,
+          "temperature": 90,
+          "speed": "2"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "60 g double cream",
+          "ingredientIndex": 11,
+          "amount": 60,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "While the sauce cooks, bring a large pan of salted water to the boil. Cook 500 g dried rigatoni for about 2 minutes less than the packet directions, so it is slightly underdone. Reserve up to 150 g cooking water and drain.",
+      "ingredientLinks": [
+        {
+          "match": "500 g dried rigatoni",
+          "ingredientIndex": 12,
+          "amount": 500,
+          "unit": "g"
+        },
+        {
+          "match": "150 g cooking water",
+          "ingredientIndex": 16,
+          "amount": 150,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Preheat the oven to 200°C fan. Put the drained rigatoni into a large deep baking dish or two medium dishes. Pour in the TM7 red pepper sauce and stir well. Stir through 125 g crumbled feta. Nestle the 16 browned lamb meatballs into the pasta, then scatter over the remaining 125 g feta and 50 g fresh breadcrumbs. Add a splash of reserved pasta water if the mixture looks too thick.",
+      "ingredientLinks": [
+        {
+          "match": "125 g crumbled feta",
+          "ingredientIndex": 13,
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "match": "remaining 125 g feta",
+          "ingredientIndex": 13,
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "match": "50 g fresh breadcrumbs",
+          "ingredientIndex": 14,
+          "amount": 50,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Bake uncovered at 200°C fan for 18-22 minutes until bubbling and lightly golden, and the meatballs are fully cooked (75°C at the centre). Allow to rest for 5 minutes. Scatter over 15 g fresh basil leaves and serve generously.",
+      "ingredientLinks": [
+        {
+          "match": "15 g fresh basil leaves",
+          "ingredientIndex": 15,
+          "amount": 15,
+          "unit": "g"
+        }
+      ]
+    }
+  ]
+}
