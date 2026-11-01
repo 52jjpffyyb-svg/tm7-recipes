@@ -1,0 +1,143 @@
+{
+  "name": "TM7 Banana and Chocolate Chip Loaf",
+  "yield": {
+    "value": 10,
+    "unitText": "portion"
+  },
+  "prepTime": 900,
+  "totalTime": 5700,
+  "ingredients": [
+    "125 g unsalted butter, softened, plus extra for greasing",
+    "120 g light brown sugar",
+    "250 g ripe bananas, peeled",
+    "2 large eggs",
+    "1 tsp vanilla extract",
+    "225 g self-raising flour",
+    "1/2 tsp bicarbonate of soda",
+    "1 pinch salt",
+    "120 g milk or dark chocolate chips (100 g for batter, 20 g for topping)"
+  ],
+  "steps": [
+    {
+      "text": "Preheat the oven to 160°C fan / 180°C conventional. Grease and line a 2 lb loaf tin with baking paper."
+    },
+    {
+      "text": "Add 125 g softened unsalted butter and 120 g light brown sugar to the mixing bowl. Mix 30 sec / speed 4. No butterfly needed.",
+      "actions": [
+        {
+          "match": "30 sec / speed 4",
+          "time": 30,
+          "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "125 g softened unsalted butter",
+          "ingredientIndex": 0,
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "match": "120 g light brown sugar",
+          "ingredientIndex": 1,
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Scrape down the sides of the bowl, then mix 20 sec / speed 4.",
+      "actions": [
+        {
+          "match": "20 sec / speed 4",
+          "time": 20,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Add 250 g peeled ripe bananas, 2 large eggs and 1 tsp vanilla extract. Mix 20 sec / speed 4. Scrape down the bowl. The mixture may look slightly curdled; this is fine.",
+      "actions": [
+        {
+          "match": "20 sec / speed 4",
+          "time": 20,
+          "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "250 g peeled ripe bananas",
+          "ingredientIndex": 2,
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "match": "2 large eggs",
+          "ingredientIndex": 3
+        },
+        {
+          "match": "1 tsp vanilla extract",
+          "ingredientIndex": 4,
+          "amount": 1,
+          "unit": "tsp"
+        }
+      ]
+    },
+    {
+      "text": "Add 225 g self-raising flour, 1/2 tsp bicarbonate of soda and a pinch of salt. Mix 10 sec / speed 3. Scrape down and finish folding with the spatula until no dry flour remains. Avoid overmixing.",
+      "actions": [
+        {
+          "match": "10 sec / speed 3",
+          "time": 10,
+          "speed": "3"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "225 g self-raising flour",
+          "ingredientIndex": 5,
+          "amount": 225,
+          "unit": "g"
+        },
+        {
+          "match": "1/2 tsp bicarbonate of soda",
+          "ingredientIndex": 6,
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "a pinch of salt",
+          "ingredientIndex": 7
+        }
+      ]
+    },
+    {
+      "text": "Use the spatula to fold in 100 g chocolate chips.",
+      "ingredientLinks": [
+        {
+          "match": "100 g chocolate chips",
+          "ingredientIndex": 8,
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Spoon the mixture into the prepared loaf tin and level gently. Sprinkle the remaining 20 g chocolate chips over the top.",
+      "ingredientLinks": [
+        {
+          "match": "20 g chocolate chips",
+          "ingredientIndex": 8,
+          "amount": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Bake at 160°C fan / 180°C conventional for 55-65 minutes, checking from 50 minutes. A skewer inserted into the centre should come out without wet batter; melted chocolate is fine. If the top gets dark before the middle is cooked, loosely cover with foil."
+    },
+    {
+      "text": "Leave in the tin for 15 minutes, then lift onto a wire rack. Allow to cool before slicing so the middle holds together. Makes approximately 10 slices. Use very ripe bananas with plenty of brown spots for the best flavour."
+    }
+  ]
+}
