@@ -1,0 +1,135 @@
+{
+  "name": "TM7 Lemon and Blueberry Drizzle Loaf",
+  "yield": {
+    "value": 12,
+    "unitText": "portion"
+  },
+  "prepTime": 900,
+  "totalTime": 7200,
+  "ingredients": [
+    "175 g butter, softened, plus extra for greasing",
+    "175 g caster sugar",
+    "200 g self-raising flour",
+    "1/2 tsp baking powder",
+    "3 large eggs",
+    "25 g milk",
+    "2 lemons, finely grated zest (reserve 40 g juice for drizzle)",
+    "150 g blueberries, washed and dried",
+    "75 g granulated sugar, for drizzle",
+    "40 g lemon juice, for drizzle"
+  ],
+  "steps": [
+    {
+      "text": "Preheat the oven to 160°C fan / 180°C conventional. Grease and line a 2 lb loaf tin with baking paper. This is a homemade TM7 adaptation inspired by Mary Berry's lemon drizzle cake, not an original Mary Berry recipe."
+    },
+    {
+      "text": "Finely grate the zest of 2 lemons, avoiding the white pith. Reserve the zest for the batter and squeeze 40 g lemon juice for the drizzle.",
+      "ingredientLinks": [
+        {
+          "match": "2 lemons",
+          "ingredientIndex": 6
+        },
+        {
+          "match": "40 g lemon juice",
+          "ingredientIndex": 9,
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 175 g softened butter, 175 g caster sugar, 200 g self-raising flour, 1/2 tsp baking powder, 3 large eggs, 25 g milk and the reserved lemon zest to the mixing bowl. Fit the lid and mix 30 sec / speed 4. No heat or butterfly is needed.",
+      "actions": [
+        {
+          "match": "30 sec / speed 4",
+          "time": 30,
+          "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "175 g softened butter",
+          "ingredientIndex": 0,
+          "amount": 175,
+          "unit": "g"
+        },
+        {
+          "match": "175 g caster sugar",
+          "ingredientIndex": 1,
+          "amount": 175,
+          "unit": "g"
+        },
+        {
+          "match": "200 g self-raising flour",
+          "ingredientIndex": 2,
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "match": "1/2 tsp baking powder",
+          "ingredientIndex": 3,
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "3 large eggs",
+          "ingredientIndex": 4
+        },
+        {
+          "match": "25 g milk",
+          "ingredientIndex": 5,
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "match": "reserved lemon zest",
+          "ingredientIndex": 6
+        }
+      ]
+    },
+    {
+      "text": "Scrape down the sides of the mixing bowl. If the batter is not fully combined, fit the lid and mix for a further 10 sec / speed 4. Stop once smooth; avoid overmixing.",
+      "actions": [
+        {
+          "match": "10 sec / speed 4",
+          "time": 10,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Add 150 g blueberries and gently fold them into the batter by hand using the spatula, with the blades stopped. Do not blend the berries. Frozen berries can be added directly from frozen.",
+      "ingredientLinks": [
+        {
+          "match": "150 g blueberries",
+          "ingredientIndex": 7,
+          "amount": 150,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Spoon the batter into the prepared loaf tin and level the top. Bake in the oven at 160°C fan / 180°C conventional for 55-70 minutes, checking from 50 minutes. Loosely cover with foil if browning too quickly. A skewer inserted into the sponge in the centre should come out without wet batter. Frozen berries may increase baking time."
+    },
+    {
+      "text": "Leave the baked loaf in its tin for 10 minutes. Meanwhile, place a small bowl on the mixing bowl lid and weigh in 75 g granulated sugar and the reserved 40 g lemon juice. Remove the small bowl and stir together with a spoon; keep the sugar slightly grainy for a crunchy topping.",
+      "ingredientLinks": [
+        {
+          "match": "75 g granulated sugar",
+          "ingredientIndex": 8,
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "match": "40 g lemon juice",
+          "ingredientIndex": 9,
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Prick the warm loaf with a skewer and spoon the lemon drizzle evenly over the top. Allow to cool completely in the tin, then lift out using the baking paper and cut into 10-12 slices."
+    }
+  ]
+}
