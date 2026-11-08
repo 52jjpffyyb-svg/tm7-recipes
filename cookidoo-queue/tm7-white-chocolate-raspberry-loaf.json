@@ -1,0 +1,182 @@
+{
+  "name": "TM7 White Chocolate & Raspberry Loaf Cake",
+  "yield": {
+    "value": 12,
+    "unitText": "portion"
+  },
+  "prepTime": 900,
+  "totalTime": 5700,
+  "ingredients": [
+    "200 g unsalted butter, softened",
+    "180 g caster sugar",
+    "4 medium eggs",
+    "5 g vanilla extract",
+    "200 g self-raising flour",
+    "4 g baking powder",
+    "30 g milk",
+    "120 g white chocolate, chopped into chunks",
+    "150 g fresh raspberries",
+    "10 g plain flour, for coating raspberries",
+    "100 g white chocolate, for topping",
+    "25 g double cream",
+    "40 g fresh raspberries, optional decoration"
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 180°C conventional / 160°C fan. Grease and line a 2 lb loaf tin (approximately 23 × 13 cm)."
+    },
+    {
+      "text": "Add 200 g softened butter and 180 g caster sugar to mixing bowl. Mix 40 sec / speed 4, then scrape down.",
+      "actions": [
+        {
+          "match": "40 sec / speed 4",
+          "time": 40,
+          "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "200 g softened butter",
+          "ingredientIndex": 0,
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "match": "180 g caster sugar",
+          "ingredientIndex": 1,
+          "amount": 180,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 4 medium eggs and 5 g vanilla extract. Mix 30 sec / speed 4. Mixture may look slightly curdled.",
+      "actions": [
+        {
+          "match": "30 sec / speed 4",
+          "time": 30,
+          "speed": "4"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "4 medium eggs",
+          "ingredientIndex": 2
+        },
+        {
+          "match": "5 g vanilla extract",
+          "ingredientIndex": 3,
+          "amount": 5,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 200 g self-raising flour, 4 g baking powder and 30 g milk. Mix 15 sec / speed 3. Scrape down and finish folding with spatula if needed; do not overmix.",
+      "actions": [
+        {
+          "match": "15 sec / speed 3",
+          "time": 15,
+          "speed": "3"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "200 g self-raising flour",
+          "ingredientIndex": 4,
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "match": "4 g baking powder",
+          "ingredientIndex": 5,
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "match": "30 g milk",
+          "ingredientIndex": 6,
+          "amount": 30,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "In a separate bowl, gently toss 150 g fresh raspberries with 10 g plain flour. Fold these and 120 g white chocolate chunks into cake batter by hand with spatula, to avoid crushing berries.",
+      "ingredientLinks": [
+        {
+          "match": "150 g fresh raspberries",
+          "ingredientIndex": 8,
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "match": "10 g plain flour",
+          "ingredientIndex": 9,
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "match": "120 g white chocolate",
+          "ingredientIndex": 7,
+          "amount": 120,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Transfer to prepared tin, level top and bake 55–65 minutes at 160°C fan / 180°C conventional. Check after 50 minutes; skewer in sponge should have no wet batter. Cover loosely with foil if browning too quickly."
+    },
+    {
+      "text": "Cool in tin for 15 minutes, then transfer to wire rack and cool completely."
+    },
+    {
+      "text": "For topping, clean and dry mixing bowl. Add 100 g white chocolate and chop 5 sec / speed 7.",
+      "actions": [
+        {
+          "match": "5 sec / speed 7",
+          "time": 5,
+          "speed": "7"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "100 g white chocolate",
+          "ingredientIndex": 10,
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 25 g double cream. Melt 3 min / 45°C / speed 2. Check smoothness and continue briefly if necessary.",
+      "actions": [
+        {
+          "match": "3 min / 45°C / speed 2",
+          "time": 180,
+          "temperature": 45,
+          "speed": "2"
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "25 g double cream",
+          "ingredientIndex": 11,
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Drizzle white chocolate topping over fully cooled loaf. Decorate with 40 g fresh raspberries if desired, then slice.",
+      "ingredientLinks": [
+        {
+          "match": "40 g fresh raspberries",
+          "ingredientIndex": 12,
+          "amount": 40,
+          "unit": "g"
+        }
+      ]
+    }
+  ]
+}
