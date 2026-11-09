@@ -1,0 +1,160 @@
+{
+  "name": "TM7 Hearty Sausage Casserole",
+  "yield": {
+    "value": 4,
+    "unitText": "portion"
+  },
+  "prepTime": 600,
+  "totalTime": 3300,
+  "ingredients": [
+    "8 thick pork sausages (450–500 g)",
+    "15 g olive oil",
+    "250 g onions, quartered",
+    "2 garlic cloves",
+    "150 g red pepper, diced",
+    "250 g mushrooms, thickly sliced",
+    "30 g tomato purée",
+    "1 tsp smoked paprika",
+    "1 tsp dried mixed herbs",
+    "400 g chopped tomatoes",
+    "200 g hot beef or chicken stock",
+    "Salt and black pepper, to taste"
+  ],
+  "steps": [
+    {
+      "text": "Chop 250 g onions and 2 garlic cloves for 4 sec / speed 5. Scrape down.",
+      "ingredientLinks": [
+        {
+          "match": "250 g onions",
+          "ingredientIndex": 2,
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "match": "2 garlic cloves",
+          "ingredientIndex": 3
+        }
+      ],
+      "actions": [
+        {
+          "match": "4 sec / speed 5",
+          "time": 4,
+          "speed": "5"
+        }
+      ]
+    },
+    {
+      "text": "Add 10 g olive oil. Cook 5 min / 120°C / speed 1. Start browning the sausages meanwhile.",
+      "ingredientLinks": [
+        {
+          "match": "10 g olive oil",
+          "ingredientIndex": 1,
+          "amount": 10,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "5 min / 120°C / speed 1",
+          "time": 300,
+          "speed": "1",
+          "temperature": 120
+        }
+      ]
+    },
+    {
+      "text": "Brown 8 thick pork sausages in 5 g olive oil in a frying pan for 6–8 minutes, turning occasionally. Set aside. Measure 200 g hot stock and use a splash to loosen the browned bits in the pan. Reserve all the liquid.",
+      "ingredientLinks": [
+        {
+          "match": "8 thick pork sausages",
+          "ingredientIndex": 0
+        },
+        {
+          "match": "5 g olive oil",
+          "ingredientIndex": 1,
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "match": "200 g hot stock",
+          "ingredientIndex": 10,
+          "amount": 200,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 150 g red pepper, 250 g mushrooms, 30 g tomato purée, 1 tsp smoked paprika and 1 tsp dried mixed herbs. Cook 6 min / 120°C / reverse / spoon speed.",
+      "ingredientLinks": [
+        {
+          "match": "150 g red pepper",
+          "ingredientIndex": 4,
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "match": "250 g mushrooms",
+          "ingredientIndex": 5,
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "match": "30 g tomato purée",
+          "ingredientIndex": 6,
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "match": "1 tsp smoked paprika",
+          "ingredientIndex": 7
+        },
+        {
+          "match": "1 tsp dried mixed herbs",
+          "ingredientIndex": 8
+        }
+      ],
+      "actions": [
+        {
+          "match": "6 min / 120°C / reverse / spoon speed",
+          "time": 360,
+          "speed": "0.5",
+          "temperature": 120,
+          "direction": "CCW"
+        }
+      ]
+    },
+    {
+      "text": "Add 400 g chopped tomatoes, the reserved stock and pan juices. Heat 8 min / 100°C / reverse / spoon speed, extending until bubbling if needed.",
+      "ingredientLinks": [
+        {
+          "match": "400 g chopped tomatoes",
+          "ingredientIndex": 9,
+          "amount": 400,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "8 min / 100°C / reverse / spoon speed",
+          "time": 480,
+          "speed": "0.5",
+          "temperature": 100,
+          "direction": "CCW"
+        }
+      ]
+    },
+    {
+      "text": "Select Open Cooking manually at 100°C. Nestle the browned sausages in the sauce, keeping below the maximum fill line. Simmer with the lid on for 25–30 minutes, turning halfway. For thicker gravy, remove the lid for the final 10 minutes.",
+      "ingredientLinks": []
+    },
+    {
+      "text": "Check the thickest sausage is cooked through and steaming hot in the centre, extending cooking if needed. Add salt and black pepper to taste and serve with mash.",
+      "ingredientLinks": [
+        {
+          "match": "salt and black pepper",
+          "ingredientIndex": 11
+        }
+      ]
+    }
+  ]
+}
