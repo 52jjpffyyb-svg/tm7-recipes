@@ -1,0 +1,215 @@
+{
+  "name": "TM7 Mary Berry Style Lemon Meringue Pie",
+  "yield": {
+    "value": 8,
+    "unitText": "portion"
+  },
+  "prepTime": 1800,
+  "totalTime": 10800,
+  "ingredients": [
+    "225 g plain flour",
+    "175 g cold unsalted butter, cubed",
+    "45 g icing sugar",
+    "1 large egg (55 g without shell)",
+    "15 g cold water",
+    "6 lemons, finely grated zest",
+    "180 g lemon juice",
+    "65 g cornflour",
+    "250 g caster sugar",
+    "450 g water",
+    "6 egg yolks",
+    "4 egg whites",
+    "225 g caster sugar, for meringue",
+    "6 g cornflour, for meringue"
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 160°C fan / 180°C conventional. Prepare a 23 cm loose-bottomed flan tin."
+    },
+    {
+      "text": "Add 225 g plain flour and 175 g cold unsalted butter. Mix 10 sec / speed 6.",
+      "ingredientLinks": [
+        {
+          "match": "225 g plain flour",
+          "ingredientIndex": 0,
+          "amount": 225,
+          "unit": "g"
+        },
+        {
+          "match": "175 g cold unsalted butter",
+          "ingredientIndex": 1,
+          "amount": 175,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "10 sec / speed 6",
+          "time": 10,
+          "speed": "6"
+        }
+      ]
+    },
+    {
+      "text": "Add 45 g icing sugar, 1 large egg and 15 g cold water. Mix 15 sec / speed 4.",
+      "ingredientLinks": [
+        {
+          "match": "45 g icing sugar",
+          "ingredientIndex": 2,
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "match": "1 large egg",
+          "ingredientIndex": 3
+        },
+        {
+          "match": "15 g cold water",
+          "ingredientIndex": 4,
+          "amount": 15,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "15 sec / speed 4",
+          "time": 15,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Bring pastry together by hand, roll to 3 mm, line tin and chill 30 minutes. Trim and prick base. Line with baking paper and baking beans; bake 15 minutes, remove beans and paper and bake another 5–10 minutes until dry and lightly golden. Reduce oven to 150°C fan / 170°C conventional."
+    },
+    {
+      "text": "Clean bowl. Add zest of 6 lemons, 180 g lemon juice, 65 g cornflour and 450 g water. Mix 15 sec / speed 4.",
+      "ingredientLinks": [
+        {
+          "match": "6 lemons",
+          "ingredientIndex": 5
+        },
+        {
+          "match": "180 g lemon juice",
+          "ingredientIndex": 6,
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "match": "65 g cornflour",
+          "ingredientIndex": 7,
+          "amount": 65,
+          "unit": "g"
+        },
+        {
+          "match": "450 g water",
+          "ingredientIndex": 9,
+          "amount": 450,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "15 sec / speed 4",
+          "time": 15,
+          "speed": "4"
+        }
+      ]
+    },
+    {
+      "text": "Cook 10 min / 100°C / speed 3 until thick. Extend by 1–2 minutes if needed.",
+      "actions": [
+        {
+          "match": "10 min / 100°C / speed 3",
+          "time": 600,
+          "speed": "3",
+          "temperature": 100
+        }
+      ]
+    },
+    {
+      "text": "Allow mixture to cool to approximately 80°C. Separately whisk 6 egg yolks and 250 g caster sugar.",
+      "ingredientLinks": [
+        {
+          "match": "6 egg yolks",
+          "ingredientIndex": 10
+        },
+        {
+          "match": "250 g caster sugar",
+          "ingredientIndex": 8,
+          "amount": 250,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Gradually introduce yolk mixture while mixing on speed 3 over 30 seconds, using the TM7 lid safely; alternatively stop blades and add in small portions."
+    },
+    {
+      "text": "Cook 5 min / 90°C / speed 3 until thick like custard. Pour into baked pastry.",
+      "actions": [
+        {
+          "match": "5 min / 90°C / speed 3",
+          "time": 300,
+          "speed": "3",
+          "temperature": 90
+        }
+      ]
+    },
+    {
+      "text": "Thoroughly clean and dry bowl, blades and butterfly whisk. Insert butterfly. Add 4 egg whites and whisk 3 min / 37°C / speed 3.5 until soft peaks form.",
+      "ingredientLinks": [
+        {
+          "match": "4 egg whites",
+          "ingredientIndex": 11
+        }
+      ],
+      "actions": [
+        {
+          "match": "3 min / 37°C / speed 3.5",
+          "time": 180,
+          "speed": "3.5",
+          "temperature": 37
+        }
+      ]
+    },
+    {
+      "text": "Whisk 6 min / speed 3.5 without heat, gradually adding 225 g caster sugar during first 4 minutes. On TM7 stop to add small portions safely if needed.",
+      "ingredientLinks": [
+        {
+          "match": "225 g caster sugar",
+          "ingredientIndex": 12,
+          "amount": 225,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "6 min / speed 3.5",
+          "time": 360,
+          "speed": "3.5"
+        }
+      ]
+    },
+    {
+      "text": "Add 6 g cornflour. Mix 15 sec / speed 3. Check for stiff glossy peaks; whisk another minute if needed.",
+      "ingredientLinks": [
+        {
+          "match": "6 g cornflour",
+          "ingredientIndex": 13,
+          "amount": 6,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "15 sec / speed 3",
+          "time": 15,
+          "speed": "3"
+        }
+      ]
+    },
+    {
+      "text": "Spread meringue over warm filling, sealing to pastry edges. Create peaks. Bake at 150°C fan for 15–20 minutes until golden and set. Cool 1–2 hours before cutting."
+    }
+  ]
+}
