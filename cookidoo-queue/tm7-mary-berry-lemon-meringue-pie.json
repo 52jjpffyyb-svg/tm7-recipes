@@ -1,5 +1,5 @@
 {
-  "name": "TM7 Mary Berry Style Lemon Meringue Pie",
+  "name": "TM7 Mary Berry Style Lemon Meringue Pie - Revised Meringue",
   "yield": {
     "value": 8,
     "unitText": "portion"
@@ -19,12 +19,12 @@
     "450 g water",
     "6 egg yolks",
     "4 egg whites",
-    "225 g caster sugar, for meringue",
+    "160 g caster sugar, for TM7 meringue (reduced from original 225 g)",
     "6 g cornflour, for meringue"
   ],
   "steps": [
     {
-      "text": "Preheat oven to 160°C fan / 180°C conventional. Prepare a 23 cm loose-bottomed flan tin."
+      "text": "Preheat oven to 160°C fan / 180°C conventional. Prepare a 23 cm loose-bottomed flan tin. Note: TM7 meringue uses 160 g sugar rather than original 225 g, based on Thermomix guidance of maximum 40 g sugar per egg white."
     },
     {
       "text": "Add 225 g plain flour and 175 g cold unsalted butter. Mix 10 sec / speed 6.",
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "text": "Thoroughly clean and dry bowl, blades and butterfly whisk. Insert butterfly. Add 4 egg whites and whisk 3 min / 37°C / speed 3.5 until soft peaks form.",
+      "text": "Clean and completely dry bowl and butterfly whisk. Ensure no yolk or grease remains. Fit butterfly and add 4 egg whites. Whisk 2 min / 37°C / speed 3.5, then stop and inspect. Whites should be foamy and hold soft peaks; if still liquid, whisk 30 seconds more. Thermomix's published meringue guidance uses 37°C.",
       "ingredientLinks": [
         {
           "match": "4 egg whites",
@@ -165,46 +165,39 @@
       ],
       "actions": [
         {
-          "match": "3 min / 37°C / speed 3.5",
-          "time": 180,
-          "speed": "3.5",
-          "temperature": 37
-        }
-      ]
-    },
-    {
-      "text": "Whisk 6 min / speed 3.5 without heat, gradually adding 225 g caster sugar during first 4 minutes. On TM7 stop to add small portions safely if needed.",
-      "ingredientLinks": [
-        {
-          "match": "225 g caster sugar",
-          "ingredientIndex": 12,
-          "amount": 225,
-          "unit": "g"
-        }
-      ],
-      "actions": [
-        {
-          "match": "6 min / speed 3.5",
-          "time": 360,
+          "match": "2 min / 37°C / speed 3.5",
+          "time": 120,
+          "temperature": 37,
           "speed": "3.5"
         }
       ]
     },
     {
-      "text": "Add 6 g cornflour. Mix 15 sec / speed 3. Check for stiff glossy peaks; whisk another minute if needed.",
+      "text": "TM7-friendly sugar method: weigh 160 g caster sugar separately. With the machine stopped, add 80 g sugar to the soft-peaked whites, then whisk 1 min / speed 3. Add remaining 80 g with blades stopped and whisk 1–2 min / speed 3, checking every 30 seconds. Stop once glossy and firm. Do not exceed the TM7 lid's safe operating instructions; do not try to pour sugar through a closed lid.",
+      "ingredientLinks": [
+        {
+          "match": "160 g caster sugar",
+          "ingredientIndex": 12,
+          "amount": 160,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "1 min / speed 3",
+          "time": 60,
+          "speed": "3"
+        }
+      ]
+    },
+    {
+      "text": "Add 6 g cornflour and fold gently by hand after removing the butterfly, or mix very briefly 5 sec / speed 2.5. Stop when combined. If meringue is loose, do not keep whisking for several more minutes; investigate bowl cleanliness or egg contamination instead.",
       "ingredientLinks": [
         {
           "match": "6 g cornflour",
           "ingredientIndex": 13,
           "amount": 6,
           "unit": "g"
-        }
-      ],
-      "actions": [
-        {
-          "match": "15 sec / speed 3",
-          "time": 15,
-          "speed": "3"
         }
       ]
     },
