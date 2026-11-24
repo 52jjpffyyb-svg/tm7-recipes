@@ -1,0 +1,267 @@
+{
+  "name": "TM7 Indian Takeaway-Style Lamb Bhuna",
+  "yield": {
+    "value": 4,
+    "unitText": "portion"
+  },
+  "prepTime": 900,
+  "totalTime": 7200,
+  "ingredients": [
+    "800 g boneless lamb shoulder, diced",
+    "300 g onions, quartered",
+    "25 g garlic",
+    "25 g fresh ginger",
+    "45 g ghee or sunflower oil",
+    "400 g chopped tomatoes",
+    "30 g tomato purée",
+    "100 g lamb stock",
+    "5 g salt",
+    "10 g fresh coriander",
+    "10 g lemon juice",
+    "4 g ground cumin",
+    "4 g ground coriander",
+    "4 g garam masala",
+    "2 g turmeric",
+    "2 g mild chilli powder",
+    "4 g paprika",
+    "1 g ground cinnamon"
+  ],
+  "steps": [
+    {
+      "text": "Add 25 g garlic and 25 g fresh ginger. 5 sec / Speed 7.",
+      "ingredientLinks": [
+        {
+          "match": "25 g garlic",
+          "ingredientIndex": 2,
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "match": "25 g fresh ginger",
+          "ingredientIndex": 3,
+          "amount": 25,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "5 sec / Speed 7",
+          "time": 5,
+          "speed": "7"
+        }
+      ]
+    },
+    {
+      "text": "Scrape down. Add 300 g onions. 5 sec / Speed 5.",
+      "ingredientLinks": [
+        {
+          "match": "300 g onions",
+          "ingredientIndex": 1,
+          "amount": 300,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "5 sec / Speed 5",
+          "time": 5,
+          "speed": "5"
+        }
+      ]
+    },
+    {
+      "text": "Scrape down. Add 45 g ghee or sunflower oil. 15 min / 120°C / Speed 1.",
+      "ingredientLinks": [
+        {
+          "match": "45 g ghee or sunflower oil",
+          "ingredientIndex": 4,
+          "amount": 45,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "15 min / 120°C / Speed 1",
+          "time": 900,
+          "speed": "1",
+          "temperature": 120
+        }
+      ]
+    },
+    {
+      "text": "Add 4 g ground cumin, 4 g ground coriander, 2 g turmeric, 2 g mild chilli powder, 4 g paprika, 1 g ground cinnamon and 30 g tomato purée. 3 min / 120°C / Speed 1.",
+      "ingredientLinks": [
+        {
+          "match": "4 g ground cumin",
+          "ingredientIndex": 11,
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "match": "4 g ground coriander",
+          "ingredientIndex": 12,
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "match": "2 g turmeric",
+          "ingredientIndex": 14,
+          "amount": 2,
+          "unit": "g"
+        },
+        {
+          "match": "2 g mild chilli powder",
+          "ingredientIndex": 15,
+          "amount": 2,
+          "unit": "g"
+        },
+        {
+          "match": "4 g paprika",
+          "ingredientIndex": 16,
+          "amount": 4,
+          "unit": "g"
+        },
+        {
+          "match": "1 g ground cinnamon",
+          "ingredientIndex": 17,
+          "amount": 1,
+          "unit": "g"
+        },
+        {
+          "match": "30 g tomato purée",
+          "ingredientIndex": 6,
+          "amount": 30,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "3 min / 120°C / Speed 1",
+          "time": 180,
+          "speed": "1",
+          "temperature": 120
+        }
+      ]
+    },
+    {
+      "text": "Add 400 g chopped tomatoes and 5 g salt. 10 min / 100°C / Speed 1.",
+      "ingredientLinks": [
+        {
+          "match": "400 g chopped tomatoes",
+          "ingredientIndex": 5,
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "match": "5 g salt",
+          "ingredientIndex": 8,
+          "amount": 5,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "10 min / 100°C / Speed 1",
+          "time": 600,
+          "speed": "1",
+          "temperature": 100
+        }
+      ]
+    },
+    {
+      "text": "Blend sauce with lid secured. 20 sec / Speed 6.",
+      "ingredientLinks": [],
+      "actions": [
+        {
+          "match": "20 sec / Speed 6",
+          "time": 20,
+          "speed": "6"
+        }
+      ]
+    },
+    {
+      "text": "Add 800 g boneless lamb shoulder. Optionally brown in a frying pan first. 5 min / 120°C / Reverse / Speed spoon.",
+      "ingredientLinks": [
+        {
+          "match": "800 g boneless lamb shoulder",
+          "ingredientIndex": 0,
+          "amount": 800,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "5 min / 120°C / Reverse / Speed spoon",
+          "time": 300,
+          "speed": "spoon",
+          "temperature": 120,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "text": "Add 100 g lamb stock. Keep below maximum fill line. 60 min / 95°C / Reverse / Speed spoon.",
+      "ingredientLinks": [
+        {
+          "match": "100 g lamb stock",
+          "ingredientIndex": 7,
+          "amount": 100,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "60 min / 95°C / Reverse / Speed spoon",
+          "time": 3600,
+          "speed": "spoon",
+          "temperature": 95,
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "text": "Check lamb tenderness. If needed cook another 15–30 min at 95°C / Reverse / Speed Spoon. Add a little water if too dry.",
+      "ingredientLinks": []
+    },
+    {
+      "text": "Add 4 g garam masala. Reduce for 10–15 min / Varoma / Reverse / Speed Spoon, using the approved TM7 steam-release configuration. Check frequently to avoid catching.",
+      "ingredientLinks": [
+        {
+          "match": "4 g garam masala",
+          "ingredientIndex": 13,
+          "amount": 4,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Add 10 g fresh coriander and 10 g lemon juice. 20 sec / Reverse / Speed spoon.",
+      "ingredientLinks": [
+        {
+          "match": "10 g fresh coriander",
+          "ingredientIndex": 9,
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "match": "10 g lemon juice",
+          "ingredientIndex": 10,
+          "amount": 10,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "20 sec / Reverse / Speed spoon",
+          "time": 20,
+          "speed": "spoon",
+          "reverse": true
+        }
+      ]
+    },
+    {
+      "text": "Rest 5 minutes. Serve with rice and naan. No fenugreek required.",
+      "ingredientLinks": []
+    }
+  ]
+}
