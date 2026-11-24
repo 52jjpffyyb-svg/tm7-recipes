@@ -193,9 +193,9 @@
         {
           "match": "5 min / 120°C / Reverse / Speed spoon",
           "time": 300,
-          "speed": "spoon",
+          "speed": "0.5",
           "temperature": 120,
-          "reverse": true
+          "direction": "CCW"
         }
       ]
     },
@@ -213,9 +213,9 @@
         {
           "match": "60 min / 95°C / Reverse / Speed spoon",
           "time": 3600,
-          "speed": "spoon",
+          "speed": "0.5",
           "temperature": 95,
-          "reverse": true
+          "direction": "CCW"
         }
       ]
     },
@@ -254,8 +254,8 @@
         {
           "match": "20 sec / Reverse / Speed spoon",
           "time": 20,
-          "speed": "spoon",
-          "reverse": true
+          "speed": "0.5",
+          "direction": "CCW"
         }
       ]
     },
@@ -263,5 +263,6 @@
       "text": "Rest 5 minutes. Serve with rice and naan. No fenugreek required.",
       "ingredientLinks": []
     }
-  ]
+  ],
+  "recipeId": "01M87F9K31R9V8QF7QHK0WJJVN"
 }
