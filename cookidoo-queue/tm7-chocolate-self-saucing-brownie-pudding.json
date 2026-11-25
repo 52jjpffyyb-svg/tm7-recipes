@@ -1,0 +1,180 @@
+{
+  "name": "TM7 Chocolate Self-Saucing Brownie Pudding",
+  "ingredients": [
+    "150 g self-raising flour",
+    "120 g caster sugar",
+    "30 g cocoa powder",
+    "80 g unsalted butter",
+    "125 g whole milk",
+    "1 large egg",
+    "1 tsp vanilla extract",
+    "75 g chocolate chips",
+    "1 pinch salt",
+    "120 g soft brown sugar",
+    "25 g cocoa powder (topping)",
+    "300 g boiling water"
+  ],
+  "prepTime": 600,
+  "totalTime": 3000,
+  "yield": {
+    "value": 6,
+    "unitText": "portion"
+  },
+  "steps": [
+    {
+      "text": "Preheat oven to 180°C conventional / 160°C fan. Grease a deep 20 x 20 cm ovenproof dish.",
+      "ingredientLinks": []
+    },
+    {
+      "text": "Add 80 g unsalted butter. Melt 3 min / 60°C / speed 2.",
+      "ingredientLinks": [
+        {
+          "match": "80 g unsalted butter",
+          "ingredientIndex": 3,
+          "amount": 80,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "3 min / 60°C / speed 2",
+          "time": 180,
+          "temperature": 60,
+          "speed": 2
+        }
+      ]
+    },
+    {
+      "text": "Add 125 g whole milk, 1 large egg, 1 tsp vanilla extract and 120 g caster sugar. Mix 20 sec / speed 4.",
+      "ingredientLinks": [
+        {
+          "match": "125 g whole milk",
+          "ingredientIndex": 4,
+          "amount": 125,
+          "unit": "g"
+        },
+        {
+          "match": "1 large egg",
+          "ingredientIndex": 5
+        },
+        {
+          "match": "1 tsp vanilla extract",
+          "ingredientIndex": 6,
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "match": "120 g caster sugar",
+          "ingredientIndex": 1,
+          "amount": 120,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "20 sec / speed 4",
+          "time": 20,
+          "speed": 4
+        }
+      ]
+    },
+    {
+      "text": "Add 150 g self-raising flour, 30 g cocoa powder and 1 pinch salt. Mix 15 sec / speed 4.",
+      "ingredientLinks": [
+        {
+          "match": "150 g self-raising flour",
+          "ingredientIndex": 0,
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "match": "30 g cocoa powder",
+          "ingredientIndex": 2,
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "match": "1 pinch salt",
+          "ingredientIndex": 8
+        }
+      ],
+      "actions": [
+        {
+          "match": "15 sec / speed 4",
+          "time": 15,
+          "speed": 4
+        }
+      ]
+    },
+    {
+      "text": "Scrape down bowl. Mix 10 sec / speed 3.",
+      "ingredientLinks": [],
+      "actions": [
+        {
+          "match": "10 sec / speed 3",
+          "time": 10,
+          "speed": 3
+        }
+      ]
+    },
+    {
+      "text": "Add 75 g chocolate chips. Mix 10 sec / reverse / speed 2.",
+      "ingredientLinks": [
+        {
+          "match": "75 g chocolate chips",
+          "ingredientIndex": 7,
+          "amount": 75,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "10 sec / reverse / speed 2",
+          "time": 10,
+          "speed": 2,
+          "direction": "CCW"
+        }
+      ]
+    },
+    {
+      "text": "Transfer batter to dish and spread evenly.",
+      "ingredientLinks": []
+    },
+    {
+      "text": "In a separate bowl combine 120 g soft brown sugar and 25 g cocoa powder. Sprinkle evenly over batter.",
+      "ingredientLinks": [
+        {
+          "match": "120 g soft brown sugar",
+          "ingredientIndex": 9,
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "match": "25 g cocoa powder",
+          "ingredientIndex": 10,
+          "amount": 25,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Gently pour 300 g boiling water over the back of a tablespoon across the surface. Do not stir.",
+      "ingredientLinks": [
+        {
+          "match": "300 g boiling water",
+          "ingredientIndex": 11,
+          "amount": 300,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Bake 30–35 minutes until the cake surface is set and sauce underneath is gooey.",
+      "ingredientLinks": []
+    },
+    {
+      "text": "Rest 5–10 minutes before serving warm, ideally with vanilla ice cream.",
+      "ingredientLinks": []
+    }
+  ]
+}
