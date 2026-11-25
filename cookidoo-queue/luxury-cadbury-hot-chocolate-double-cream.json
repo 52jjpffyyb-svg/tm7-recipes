@@ -1,0 +1,116 @@
+{
+  "name": "Luxury Cadbury Hot Chocolate – TM7",
+  "ingredients": [
+    "400 g whole milk",
+    "100 g double cream",
+    "100 g Cadbury Dairy Milk chocolate",
+    "15 g unsweetened cocoa powder",
+    "½ tsp vanilla extract",
+    "1 small pinch of salt",
+    "10 g caster sugar (optional)"
+  ],
+  "steps": [
+    {
+      "text": "Break 100 g Cadbury Dairy Milk chocolate into squares and add to mixing bowl. Chop 10 sec / speed 8.",
+      "actions": [
+        {
+          "match": "10 sec / speed 8",
+          "time": 10,
+          "speed": 8
+        }
+      ],
+      "ingredientLinks": [
+        {
+          "match": "100 g Cadbury Dairy Milk chocolate",
+          "ingredientIndex": 2,
+          "amount": 100,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "text": "Scrape down sides of mixing bowl."
+    },
+    {
+      "text": "Add 400 g whole milk, 100 g double cream, 15 g unsweetened cocoa powder, ½ tsp vanilla extract and 1 small pinch of salt.",
+      "ingredientLinks": [
+        {
+          "match": "400 g whole milk",
+          "ingredientIndex": 0,
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "match": "100 g double cream",
+          "ingredientIndex": 1,
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "match": "15 g unsweetened cocoa powder",
+          "ingredientIndex": 3,
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "match": "½ tsp vanilla extract",
+          "ingredientIndex": 4,
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "match": "1 small pinch of salt",
+          "ingredientIndex": 5
+        }
+      ]
+    },
+    {
+      "text": "Heat 7 min / 80°C / speed 3.",
+      "actions": [
+        {
+          "match": "7 min / 80°C / speed 3",
+          "time": 420,
+          "temperature": 80,
+          "speed": 3
+        }
+      ]
+    },
+    {
+      "text": "Mix 20 sec / speed 5 for a smooth, slightly frothy finish.",
+      "actions": [
+        {
+          "match": "20 sec / speed 5",
+          "time": 20,
+          "speed": 5
+        }
+      ]
+    },
+    {
+      "text": "Taste and add 10 g caster sugar (optional) if required. If added, mix 10 sec / speed 3.",
+      "ingredientLinks": [
+        {
+          "match": "10 g caster sugar (optional)",
+          "ingredientIndex": 6,
+          "amount": 10,
+          "unit": "g"
+        }
+      ],
+      "actions": [
+        {
+          "match": "10 sec / speed 3",
+          "time": 10,
+          "speed": 3
+        }
+      ]
+    },
+    {
+      "text": "Pour into two large mugs and serve immediately."
+    }
+  ],
+  "prepTime": 120,
+  "totalTime": 600,
+  "yield": {
+    "value": 2,
+    "unitText": "portion"
+  }
+}
